@@ -26,6 +26,31 @@ Use five dimensions as an internal checklist:
 
 A track can be musically excellent and still score 2–3 for Mainstream Appeal.
 
+### Boundary calibration
+
+- Do not award 4/5 merely because a track is polished, famous, critically acclaimed, or easy to enjoy.
+- 3/5 is appropriate when a track is understandable and professionally produced but has clear broad-listener barriers such as:
+  - long verse-led form;
+  - weak or absent melodic chorus;
+  - niche vocal delivery;
+  - club-functional repetition;
+  - unusual or abrasive production;
+  - reduced conventional pop structure.
+- Slow tempo alone is not a reason to reduce a highly accessible pop song from 5/5 to 4/5.
+- A track can still be 5/5 Mainstream Appeal when melody, hook, structure, vocal presentation, and sonics are highly accessible despite being slow, atmospheric, or understated.
+- For strongly functional club music with little conventional melodic/song-form access, 2/5 may be more appropriate than 3/5 even when the production is highly professional.
+
+The following anchors are boundary references, not fixed song answers to memorize:
+
+- JAY-Z — What More Can I Say:
+  Mainstream Appeal 3/5 is the anchor because the track is long and rap-verse-led with limited traditional melodic-chorus emphasis, despite polished and dramatic production.
+
+- Joji — Die For You:
+  Mainstream Appeal 5/5 is the anchor because melody, chorus, structure, vocal presentation, and production are all highly accessible; slow/dreamy presentation alone should not reduce it to 4.
+
+- Boys Noize — Sireneh:
+  Mainstream Appeal 2/5 is the anchor for highly functional Hard Techno whose primary identity is sustained club energy rather than conventional melody, chorus, or pop song structure.
+
 ## Musicality
 
 Musicality estimates the quality and effectiveness of the musical result, independent of popularity.

@@ -6,6 +6,16 @@ Style classification is **web-led and open-vocabulary**. No single taxonomy is c
 
 Use established public style terms when they are strongly supported. A reference taxonomy can help normalize wording, but it is advisory rather than a whitelist.
 
+## Established-term rule
+
+- Do not create descriptive compound labels on the fly merely because they sound plausible.
+- Terms such as “Soul-Sampled Hip Hop”, “Industrial-Adjacent Techno”, or similar constructions must not be used unless they are demonstrably established public style names.
+- When evidence supports an influence but not a recognized compound style, use an established simpler label such as Soul, East Coast Rap, Hardcore Hip-Hop, Hard Techno, etc.
+- Distinguish evidence describing a sonic influence from evidence that this is an established Style name.
+- Prefer fewer strongly supported dominant Styles over three speculative labels.
+- For fine-grained style classification, Rate Your Music and AllMusic should be checked when accessible, then cross-checked with other appropriate sources.
+- Do not treat RYM or AllMusic as absolute authorities or whitelists.
+
 ## Workflow
 
 1. Form style candidates from the track's actual musical characteristics and public evidence.

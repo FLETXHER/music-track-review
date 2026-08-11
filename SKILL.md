@@ -34,6 +34,15 @@ Turn a minimal input such as `Artist - Track` into a compact, repeatable music r
    - `复古`: modern production deliberately foregrounding an older aesthetic.
    - `经典怀旧`: genuinely older-period recording/production whose period character remains audible.
    - Do not infer this field from release year alone.
+   - Listening era is NOT a proxy for:
+     - release year;
+     - recording age alone;
+     - artist generation;
+     - use of an old sample;
+     - a track simply being considered a classic.
+   - Choose `经典怀旧` only when the actual recording, performance, mix, instrumentation, or production character audibly carries an older-period identity.
+   - An older recording may still be `现代` if its overall production/listening character does not meaningfully read as period-specific under this rubric.
+   - A modern track deliberately foregrounding an older aesthetic should be `复古` rather than `经典怀旧`.
 
 5. **Score Mainstream Appeal and Musicality independently.**
    - Read `references/scoring-guide.md`.
@@ -61,6 +70,8 @@ Style：...
 - Keep the default note compact and concrete.
 - Explain *why points are lost or earned* using audible/researched features: hook strength, flow, rhythmic accessibility, arrangement development, production texture, performance, dynamics, emotional progression, and structure.
 - Do not print the research process, source list, or a five-dimension scorecard unless the user asks.
+- Never place citations, source markers, reference IDs, or URLs inside Genre, Style, 听感年代, 大众性, 音乐性, or 备注.
+- If the host requires citations, place them only after the complete compact review.
 - If evidence is incomplete, prefer a broader defensible label over a falsely precise label.
 - If web access is unavailable, explicitly state that web research could not be performed and do not pretend the result is verified.
 
