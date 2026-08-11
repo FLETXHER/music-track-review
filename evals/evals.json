@@ -1,0 +1,94 @@
+{
+  "skill_name": "music-track-review",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "JAY-Z - What More Can I Say",
+      "expected_output": "A concise web-researched review identifying Hip Hop with defensible East Coast/hardcore/soul-related style language, modern listening era, Mainstream Appeal 3/5, and Musicality 5/5.",
+      "expectations": [
+        "Researches the exact track before scoring",
+        "Keeps Mainstream Appeal at 3/5",
+        "Keeps Musicality at 5/5",
+        "Explains that long rap-led structure and limited melodic-hook emphasis reduce mainstream appeal",
+        "Explains specific arrangement/flow/production strengths for the musicality score",
+        "Uses the required short output format"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Common feat. Lonnie “Pops” Lynn - Pops Rap III...All My Children",
+      "expected_output": "A concise review recognizing the spoken-word-centered jazz-hip-hop character, modern listening era, Mainstream Appeal 2/5, and Musicality 4/5.",
+      "expectations": [
+        "Recognizes that the track is centered on spoken word rather than conventional rap singing",
+        "Includes a jazz-hip-hop or equivalent established style",
+        "Scores Mainstream Appeal 2/5",
+        "Scores Musicality 4/5",
+        "Does not confuse low mainstream appeal with low musicality"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Bob Dylan - Tryin' to Get to Heaven (Version 2)",
+      "expected_output": "A web-researched review that resolves the alternate recording/version, uses folk/roots/blues-rock language, chooses classic-nostalgic listening era, and scores 3/5 mainstream appeal and 4/5 musicality.",
+      "expectations": [
+        "Distinguishes the recording date/version from later release context",
+        "Chooses 经典怀旧 rather than 现代 solely from release year",
+        "Scores Mainstream Appeal 3/5",
+        "Scores Musicality 4/5"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Joji - Die For You",
+      "expected_output": "A concise modern alternative-R&B/downtempo/alt-pop review with Mainstream Appeal 5/5 and Musicality 4/5.",
+      "expectations": [
+        "Uses modern listening era",
+        "Scores Mainstream Appeal 5/5",
+        "Scores Musicality 4/5",
+        "Does not promote Musicality to 5/5 merely because the song is polished"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "Boys Noize - Sireneh",
+      "expected_output": "A review of the exact track Sireneh, not the similarly titled Sirene, with hard-techno/techno classification, modern listening era, Mainstream Appeal 2/5, and Musicality 4/5.",
+      "expectations": [
+        "Does not confuse Sireneh with Sirene",
+        "Uses Hard Techno or an equivalently precise established style",
+        "Scores Mainstream Appeal 2/5",
+        "Scores Musicality 4/5"
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "Nine Inch Nails - Hurt",
+      "expected_output": "A concise industrial/alternative-rock-oriented review with classic-nostalgic listening era, Mainstream Appeal 3/5, and Musicality 5/5.",
+      "expectations": [
+        "Scores Mainstream Appeal 3/5",
+        "Scores Musicality 5/5",
+        "Justifies musicality through dynamics, arrangement tension, sonic design, and emotional progression"
+      ]
+    },
+    {
+      "id": 7,
+      "prompt": "SOPHIE - Immaterial",
+      "expected_output": "A concise electronic/pop review using hyperpop, dance-pop, experimental-pop or defensible close equivalents, modern listening era, Mainstream Appeal 4/5, and Musicality 5/5.",
+      "expectations": [
+        "Scores Mainstream Appeal 4/5",
+        "Scores Musicality 5/5",
+        "Treats unusual vocal processing as a mainstream-accessibility barrier without treating it as a musical defect"
+      ]
+    },
+    {
+      "id": 8,
+      "prompt": "Kali Uchis - Killer",
+      "expected_output": "A concise soul/R&B/pop review with retro listening era, Mainstream Appeal 4/5, and Musicality 4/5.",
+      "expectations": [
+        "Chooses 复古 rather than 现代 based only on release year",
+        "Scores Mainstream Appeal 4/5",
+        "Scores Musicality 4/5",
+        "References the deliberate old-school soul character in the reasoning"
+      ]
+    }
+  ]
+}
