@@ -96,7 +96,7 @@ Use five internal dimensions:
 - **2/5** — substantial weaknesses across several dimensions.
 - **1/5** — severe musical or technical defects, obvious non-professional failure, or material too compromised to assess normally.
 
-+## Score-note requirement
+## Score-note requirement
 
 A score note is part of the scoring decision, not merely a description of the track. For every score below 5/5, name at least one concrete limitation that prevents the next higher score.
 

@@ -3,6 +3,7 @@
 ## 🚀 Quick Start — Copy & Use
 
 适用于支持联网搜索/网页读取的 ChatGPT、Kimi、DeepSeek、Claude 等模型。
+适用于能够直接读取网页 URL 的模型。
 
 使用步骤：
 
@@ -38,10 +39,57 @@ https://raw.githubusercontent.com/FLETXHER/music-track-review/main/WEB-CHAT.md
 ```
 
 校验正确结果应为：
-`0.3 / 2/5 / 3/5 / 5/5 / 不允许`
+`0.4 / 2/5 / 3/5 / 5/5 / 不允许`
 
 之后只需输入：
 `Artist - Track`
+
++## Web Chat Compatibility
+
+Tested with the current WEB-CHAT ruleset.
+
+| Platform | Status | Notes |
+| --- | --- | --- |
+| Kimi | ✅ Recommended | Good rule adherence, web research, and compact output |
+| ChatGPT | ✅ Recommended | Good rule adherence, web research, and scoring notes |
+| Claude | ✅ Recommended | Good rule adherence and stable compact output |
+| Gemini | ⚙️ Requires repository import | Gemini Web cannot read the repository by GitHub URL alone. Import the repository first, then ask it to read WEB-CHAT.md. Execution quality has not yet been fully tested. |
+| Doubao | ⚠️ Limited | Can retrieve the rules, but may ignore the strict output and scoring-note contract |
+| DeepSeek Web | ❌ Not recommended | Can retrieve the rules, but exact-track resolution, formatting, and scoring adherence were unstable in testing |
+
+Compatibility refers only to observed behavior with this repository's web-chat workflow and may change as model or product versions change.
+
+### Gemini setup
+
+Gemini Web currently requires importing the GitHub repository instead of reading the GitHub URL directly from a prompt.
+
+步骤：
+
+1. Open Gemini on desktop.
+2. Click Add files.
+3. Choose More uploads → Import code.
+4. Import:
+   https://github.com/FLETXHER/music-track-review
+5. After the repository is attached, send:
+
+```text
+请读取当前已导入仓库中的 WEB-CHAT.md。
+
+把 WEB-CHAT.md 作为本对话后续歌曲分析的完整工作规则。
+不要使用 README.md、SKILL.md 或模型记忆覆盖 WEB-CHAT.md。
+
+读取完成后暂时不要分析歌曲。
+
+请先只回答：
+
+1. Ruleset version 是多少？
+2. Boys Noize - Sireneh 的 Mainstream Appeal calibration 是多少？
+3. JAY-Z - What More Can I Say 的 Mainstream Appeal calibration 是多少？
+4. Joji - Die For You 的 Mainstream Appeal calibration 是多少？
+5. citation / reference marker 是否允许出现在“备注”字段内部？
+
+读取正确后等待我发送 Artist - Track。
+```
 
 A web-first music research and review workflow for repeated **Artist + Track** inputs.
 

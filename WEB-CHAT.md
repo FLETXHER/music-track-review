@@ -1,6 +1,6 @@
 # Music Track Review — Web Chat Ruleset
 
-Ruleset version: 0.3
+Ruleset version: 0.4
 
 ## Usage
 
@@ -187,7 +187,7 @@ RYM 和 AllMusic 适合帮助核对细分 Style，但都不是绝对权威或白
 - 为什么大众性得到这个分；
 - 为什么音乐性得到这个分。
 
-+### Score-note requirement
+### Score-note requirement
 
 每一个低于 5/5 的分数，备注都必须明确写出至少一个具体限制，说明为什么该项不能获得更高一档分数。
 
