@@ -38,11 +38,11 @@ https://raw.githubusercontent.com/FLETXHER/music-track-review/main/WEB-CHAT.md
 - 默认只输出规则规定的短格式。
 ```
 
-校验通过后，模型应能正确返回当前 Ruleset version，
-并准确复述 `WEB-CHAT.md` 中的三项 Mainstream Appeal calibration
-以及 citation / reference marker 规则。
+校验正确结果应为：
 
-如果回答与 `WEB-CHAT.md` 当前内容不一致，请重新读取规则文件后再开始分析歌曲。
+`0.4 / 2/5 / 3/5 / 5/5 / 不允许`
+
+如果回答与上述结果不一致，请让模型重新读取 `WEB-CHAT.md` 后再开始分析歌曲。
 
 之后只需输入：
 `Artist - Track`
