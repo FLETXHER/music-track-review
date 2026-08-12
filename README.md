@@ -1,10 +1,53 @@
 # Music Track Review
 
+## 🚀 Quick Start — Copy & Use
+
+适用于支持联网搜索/网页读取的 ChatGPT、Kimi、DeepSeek、Claude 等模型。
+
+使用步骤：
+
+- 开启 Web Search / 联网搜索
+- 复制下面的 Prompt
+- 粘贴到一个新对话
+- AI 校验规则成功后，只需要继续发送 `Artist - Track`
+
+```text
+请实际读取并严格遵守这个规则文件的当前内容：
+
+https://raw.githubusercontent.com/FLETXHER/music-track-review/main/WEB-CHAT.md
+
+不要只根据搜索摘要、缓存或模型记忆判断。
+这个 WEB-CHAT.md 是本对话后续歌曲分析的完整工作规则。
+
+读取完成后暂时不要分析歌曲。
+
+请先只回答：
+
+1. Ruleset version 是多少？
+2. Boys Noize - Sireneh 的 Mainstream Appeal calibration 是多少？
+3. JAY-Z - What More Can I Say 的 Mainstream Appeal calibration 是多少？
+4. Joji - Die For You 的 Mainstream Appeal calibration 是多少？
+5. citation / reference marker 是否允许出现在“备注”字段内部？
+
+如果读取正确，之后等待我发送 Artist - Track。
+
+之后每收到一首歌：
+- 必须重新联网研究 exact track / recording / version；
+- 严格按照 WEB-CHAT.md 的 Genre、Style、听感年代、大众性、音乐性和备注规则执行；
+- 默认只输出规则规定的短格式。
+```
+
+校验正确结果应为：
+`0.3 / 2/5 / 3/5 / 5/5 / 不允许`
+
+之后只需输入：
+`Artist - Track`
+
 A web-first music research and review workflow for repeated **Artist + Track** inputs.
 
 It is designed to work in two ways:
 
-1. **Web chat:** enable the host's web-search/browsing capability, give the model this repository, ask it to read `README.md` and `SKILL.md`, then submit tracks as `Artist - Track`.
+1. **Web chat:** enable the host's web-search/browsing capability, use the Quick Start prompt so the model reads `WEB-CHAT.md`, then submit tracks as `Artist - Track`.
 2. **Agent Skills-compatible host:** install this folder as a skill. The required entry point is `SKILL.md`.
 
 ## What it returns
@@ -59,26 +102,6 @@ Not included by default:
 - `evals/evals.json` — behavioral eval cases
 - `scripts/validate_repo.py` — lightweight structure and disclosure check
 
-## Web chat starter
-
-After opening web search, a minimal setup message is:
-
-```text
-Read this repository's README.md and SKILL.md. Follow the workflow for every track I send.
-Use web research first, then return only the required short format unless I ask for detail.
-```
-
-Then send:
-
-```text
-Joji - Die For You
-```
-
-or:
-
-```text
-Bob Dylan - Tryin' to Get to Heaven (Version 2)
-```
 
 ## Status
 
