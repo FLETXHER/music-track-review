@@ -2,8 +2,8 @@
 
 ## 🚀 Quick Start — Copy & Use
 
-适用于支持联网搜索/网页读取的 ChatGPT、Kimi、DeepSeek、Claude 等模型。
-适用于能够直接读取网页 URL 的模型。
+适用于能够直接读取网页 URL 并进行联网搜索的网页模型。
+具体平台兼容性见下方 Web Chat Compatibility。
 
 使用步骤：
 
@@ -38,13 +38,16 @@ https://raw.githubusercontent.com/FLETXHER/music-track-review/main/WEB-CHAT.md
 - 默认只输出规则规定的短格式。
 ```
 
-校验正确结果应为：
-`0.4 / 2/5 / 3/5 / 5/5 / 不允许`
+校验通过后，模型应能正确返回当前 Ruleset version，
+并准确复述 `WEB-CHAT.md` 中的三项 Mainstream Appeal calibration
+以及 citation / reference marker 规则。
+
+如果回答与 `WEB-CHAT.md` 当前内容不一致，请重新读取规则文件后再开始分析歌曲。
 
 之后只需输入：
 `Artist - Track`
 
-+## Web Chat Compatibility
+## Web Chat Compatibility
 
 Tested with the current WEB-CHAT ruleset.
 
@@ -53,7 +56,7 @@ Tested with the current WEB-CHAT ruleset.
 | Kimi | ✅ Recommended | Good rule adherence, web research, and compact output |
 | ChatGPT | ✅ Recommended | Good rule adherence, web research, and scoring notes |
 | Claude | ✅ Recommended | Good rule adherence and stable compact output |
-| Gemini | ⚙️ Requires repository import | Gemini Web cannot read the repository by GitHub URL alone. Import the repository first, then ask it to read WEB-CHAT.md. Execution quality has not yet been fully tested. |
+| Gemini | ⚙️ Requires repository import | Gemini Web requires importing the repository first; direct GitHub URL retrieval is not supported for this workflow. Execution quality has not yet been fully tested. |
 | Doubao | ⚠️ Limited | Can retrieve the rules, but may ignore the strict output and scoring-note contract |
 | DeepSeek Web | ❌ Not recommended | Can retrieve the rules, but exact-track resolution, formatting, and scoring adherence were unstable in testing |
 
@@ -90,6 +93,8 @@ Gemini Web currently requires importing the GitHub repository instead of reading
 
 读取正确后等待我发送 Artist - Track。
 ```
+
+> Gemini keeps the repository state from the time it was imported. If this repository is updated, start a new chat and import the repository again to use the latest rules.
 
 A web-first music research and review workflow for repeated **Artist + Track** inputs.
 
@@ -142,6 +147,7 @@ Not included by default:
 ## Repository map
 
 - `SKILL.md` — core workflow and output contract
+- `WEB-CHAT.md` — standalone ruleset for web-chat models that can retrieve external URLs
 - `references/scoring-guide.md` — scoring dimensions and calibration
 - `references/web-research.md` — evidence and source-selection policy
 - `references/style-research-policy.md` — how to classify style without overfitting to one database
@@ -153,4 +159,6 @@ Not included by default:
 
 ## Status
 
-v0.1 is a calibration-oriented first release. The included examples and evals are intended to keep behavior consistent across different models, not to claim that every genre label is objectively unique or immutable.
+Current web-chat ruleset: **v0.4**
+
+The project remains calibration-oriented. Examples and evals are intended to improve consistency across models, not to claim that every genre/style label or score is objectively unique or immutable.
