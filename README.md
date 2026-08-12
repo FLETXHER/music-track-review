@@ -40,7 +40,7 @@ https://raw.githubusercontent.com/FLETXHER/music-track-review/main/WEB-CHAT.md
 
 校验正确结果应为：
 
-`0.4 / 2/5 / 3/5 / 5/5 / 不允许`
+`0.5 / 2/5 / 3/5 / 5/5 / 不允许`
 
 如果回答与上述结果不一致，请让模型重新读取 `WEB-CHAT.md` 后再开始分析歌曲。
 
@@ -159,6 +159,8 @@ Not included by default:
 
 ## Status
 
-Current web-chat ruleset: **v0.4**
+Current web-chat ruleset: **v0.5**
 
 The project remains calibration-oriented. Examples and evals are intended to improve consistency across models, not to claim that every genre/style label or score is objectively unique or immutable.
+
+Natural-language cleanup principles are inspired by [Humanizer-zh](https://github.com/op7418/Humanizer-zh), licensed under MIT.

@@ -1,6 +1,6 @@
 # Music Track Review — Web Chat Ruleset
 
-Ruleset version: 0.4
+Ruleset version: 0.5
 
 ## Usage
 
@@ -234,6 +234,30 @@ Invalid:
 不要写成：
 
 `大众性一般；音乐性不错。`
+
+### Natural-language pass
+
+Before final output, lightly rewrite the note so it reads like concise human-written analysis rather than generic AI prose.
+
+This pass is stylistic only.
+
+It must NOT:
+- change Genre, Style, listening era, or either score;
+- add or remove scoring reasons;
+- introduce new facts, credits, instruments, or evidence;
+- weaken the explicit score-deduction requirement;
+- add first-person opinions, rhetorical questions, jokes, or conversational filler.
+
+For the note:
+- prefer direct, concrete wording;
+- remove generic filler such as “整体来看”“值得一提的是”“总体而言”;
+- avoid promotional or exaggerated language;
+- avoid formulaic “不仅……更……” / “既……又……” constructions when a simpler sentence works;
+- avoid vague praise such as “表现出色”“完成度很高” unless followed by the concrete musical reason;
+- avoid repetitive AI-style transitions;
+- keep the existing compact `大众性X分：……；音乐性X分：……。` structure.
+
+The humanization pass may improve wording only. Evidence and scoring logic always take priority.
 
 ## Strict output contract
 
