@@ -69,6 +69,7 @@ Style：...
 - Prefer dominant styles; omit trace influences that are not important to the track's identity.
 - Keep the default note compact and concrete.
 - Explain *why points are lost or earned* using audible/researched features: hook strength, flow, rhythmic accessibility, arrangement development, production texture, performance, dynamics, emotional progression, and structure.
+- For every score below 5/5, the note must name at least one concrete limitation that prevents the next higher score. A note that only describes the track is invalid.
 - Do not print the research process, source list, or a five-dimension scorecard unless the user asks.
 - Never place citations, source markers, reference IDs, or URLs inside Genre, Style, 听感年代, 大众性, 音乐性, or 备注.
 - If the host requires citations, place them only after the complete compact review.

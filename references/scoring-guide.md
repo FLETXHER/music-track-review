@@ -96,6 +96,26 @@ Use five internal dimensions:
 - **2/5** — substantial weaknesses across several dimensions.
 - **1/5** — severe musical or technical defects, obvious non-professional failure, or material too compromised to assess normally.
 
++## Score-note requirement
+
+A score note is part of the scoring decision, not merely a description of the track. For every score below 5/5, name at least one concrete limitation that prevents the next higher score.
+
+- **4/5** — state the main strengths and at least one specific reason it is not 5/5.
+- **3/5** — state at least one genuine strength or point of entry, then the main limitation that prevents 4/5.
+- **2/5** — state the main barrier, limitation, or weakness that prevents 3/5.
+- **1/5** — state the severe failure point.
+- **5/5** — state which core dimensions support virtually no meaningful deduction.
+
+A note that only describes what the track contains is invalid. It must explain which factors raised the score and which factors limited it.
+
+Do not substitute release background, single status, artist fame, charts, sales, awards, cultural status, album background, or credits themselves for a deduction reason. Credits, producers, or instruments may appear only when they explain a specific musical result.
+
+Good:
+- `大众性3分：旋律反复句有入口，但长篇verse推进和弱旋律型副歌限制了进一步的流行接受度；音乐性4分：Flow与采样编排结合成熟，但段落变化和编曲发展仍不足以达到5分。`
+
+Invalid:
+- `大众性3分：歌曲使用Soul采样，由某制作人制作；音乐性4分：歌手表现很好。`
+
 ## How to write the note
 
 The note should be short but diagnostic.
