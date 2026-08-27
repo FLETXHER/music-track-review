@@ -6,10 +6,10 @@ Use this reference to decide the two numeric scores. The two scores answer diffe
 
 Mainstream Appeal estimates how immediately accessible the track is to a broad contemporary listener. It is not a proxy for fame, chart history, artistic value, or personal taste.
 
-Use five dimensions as an internal checklist:
+Use five dimensions as an internal checklist. Their qualitative priorities guide attention only: do not turn them into separate numeric subscores or a weighted arithmetic result.
 
 | Dimension | Priority | Higher appeal | Lower appeal |
-|---|---:|---|---|
+|---|---|---|---|
 | Melody / hook | High | memorable, singable, clear hook or refrain | unusual intervals, weak or absent hook, difficult-to-follow melodic writing |
 | Rhythm / groove | High | predictable pulse, stable groove, easy bodily entrainment | highly fragmented rhythm, frequent meter disruption, hard-to-locate pulse |
 | Arrangement accessibility | Medium | clear texture, familiar harmonic movement, readable sections | dense/empty texture, frequent modulation, unusually complex harmonic language |
@@ -18,7 +18,7 @@ Use five dimensions as an internal checklist:
 
 ### Mainstream calibration
 
-- **5/5** — unusually immediate and accessible across melody, rhythm, sonics, and structure; little broad-listener friction.
+- **5/5** — unusually immediate and accessible across melody, rhythm, sonics, and structure. The note must name several concrete accessibility strengths rather than only saying that broad-listener friction is low.
 - **4/5** — clearly accessible and polished, with one or two meaningful barriers or less-conventional choices.
 - **3/5** — broadly understandable but has obvious limits: weak traditional hook, long/slow form, niche vocal delivery, unusual production, or reduced pop structure.
 - **2/5** — strong niche/experimental/functional identity; conventional melodic and structural access is limited.
@@ -90,23 +90,38 @@ Use five internal dimensions:
 
 ### Musicality calibration
 
-- **5/5** — rare. Multiple core dimensions are clearly exceptional, and the elements reinforce one another. A famous or critically praised work does not automatically qualify.
-- **4/5** — mature, professional, cohesive, and clearly above the threshold; may be excellent without being unusually multidimensional.
-- **3/5** — functional and coherent but has clear limitations in development, performance, writing, or production.
-- **2/5** — substantial weaknesses across several dimensions.
+- **5/5** — rare and exceptional. It has a stable professional baseline, no meaningful musical or technical deduction, and clear affirmative highlights across multiple core dimensions that reinforce one another. The note must explain what moves it from 4/5 to 5/5; fame or acclaim is irrelevant.
+- **4/5** — the normal professional pass band: mature, reliable, coherent, and effective. The overall result is stably professional across most relevant core dimensions; minor limitations remain compatible with 4/5. It can have a modest arrangement, a conventional style, restrained execution, or minor limitations and remain 4/5. Lack of novelty, elite vocals, advanced harmony, or a showpiece highlight is not by itself a reason for 3/5.
+- **3/5** — a legitimate borderline or discard-tendency result, but not an automatic discard. It requires a clear pattern of meaningful foundational weakness that materially prevents a stable professional result. Do not use 3/5 merely because a track is not exceptional, has a simple genre language, a restrained arrangement, ordinary writing, or no obvious route to 5/5.
+- **2/5** — multiple fundamental weaknesses leave the result below a stable professional pass line.
 - **1/5** — severe musical or technical defects, obvious non-professional failure, or material too compromised to assess normally.
+
+### Minor limitation versus foundational weakness
+
+A minor limitation is a bounded tradeoff that does not break a core dimension: for example, a restrained but coherent arrangement, conventional writing, a limited amount of contrast, or an ordinary but controlled performance. It can prevent 5/5 without forcing 3/5.
+
+A foundational weakness materially impairs a core result across the track or at a central moment: for example, unstable flow or melody, ineffective section development, a mix that repeatedly obscures the music, unreliable performance control, or emotion that never coheres with the writing and production. Use 3/5 only when a clear, meaningful pattern of foundational weakness materially prevents a stable professional result; do not count dimensions mechanically.
+
+### Affirmative evidence for 5/5
+
+A top score requires positive evidence, not merely the absence of a flaw.
+
+- **Mainstream Appeal 5/5** — name several concrete reasons the hook, groove, section design, vocal presentation, and/or timbre are highly accessible.
+- **Musicality 5/5** — name actual standout evidence such as memorable melodic tension or flow control, meaningful harmonic/arrangement development, a coherent sonic identity, dynamics and mix that strengthen the track, distinctive and controlled performance, or unusually unified emotion and expression.
+
+Do not impose a quota of features. The evidence must be specific to the recording and sufficient to explain why 4/5 is not the better result.
 
 ## Score-note requirement
 
-A score note is part of the scoring decision, not merely a description of the track. For every score below 5/5, name at least one concrete limitation that prevents the next higher score.
+A score note is part of the scoring decision, not merely a description of the track. It must show both the evidence that supports the score and the evidence that limits it when a higher band is possible.
 
-- **4/5** — state the main strengths and at least one specific reason it is not 5/5.
-- **3/5** — state at least one genuine strength or point of entry, then the main limitation that prevents 4/5.
+- **5/5** — state concrete affirmative evidence for the top band and why 4/5 is not enough; do not use “没有明显问题” as the reason.
+- **4/5** — state the main strengths and at least one specific reason it is not 5/5. A minor limitation is sufficient here and does not make the track a 3/5.
+- **3/5** — state at least one genuine strength or point of entry, then the foundational weakness pattern that prevents 4/5.
 - **2/5** — state the main barrier, limitation, or weakness that prevents 3/5.
 - **1/5** — state the severe failure point.
-- **5/5** — state which core dimensions support virtually no meaningful deduction.
 
-A note that only describes what the track contains is invalid. It must explain which factors raised the score and which factors limited it.
+A note that only describes what the track contains is invalid. It must explain which factors raised the score and which factors limited it. Generic praise such as “表现很好”, “完成度很高”, “很专业”, “很有特色”, “很不错”, or “整体优秀” is invalid unless immediately followed by concrete audible or researched evidence.
 
 Do not substitute release background, single status, artist fame, charts, sales, awards, cultural status, album background, or credits themselves for a deduction reason. Credits, producers, or instruments may appear only when they explain a specific musical result.
 

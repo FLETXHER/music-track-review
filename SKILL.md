@@ -19,14 +19,15 @@ Turn a minimal input such as `Artist - Track` into a compact, repeatable music r
 2. **Research before judging.**
    - Use the current host's web-search, browsing, or retrieval tools.
    - Do not rely on model memory alone.
-   - Read `references/web-research.md` for evidence selection.
+   - Read `references/web-research.md` for evidence selection and the final-output firewall.
 
 3. **Classify Genre and Style.**
    - Determine the music's dominant characteristics from evidence, not from a single database label.
    - Use `references/style-research-policy.md`.
    - Broad genre families in `references/genre-family-guide.md` are orientation only.
-   - Style vocabulary is open: use established public terms when well supported.
-   - Never invent a style name to force a fit.
+   - Style vocabulary is open but normalized: use established, dominant public terms when well supported.
+   - Never invent a temporary compound label to force a fit.
+   - Put actual musical fit first; omit weak or trace influences and broaden the label when evidence is insufficient.
 
 4. **Judge listening era.**
    Choose one:
@@ -47,6 +48,8 @@ Turn a minimal input such as `Artist - Track` into a compact, repeatable music r
 5. **Score Mainstream Appeal and Musicality independently.**
    - Read `references/scoring-guide.md`.
    - Find concrete strengths and limitations before choosing the number.
+   - Treat 4/5 Musicality as the normal professional pass band; use 3/5 only when a clear pattern of foundational weakness materially prevents a stable professional result. Do not count dimensions mechanically.
+   - For either score, award 5/5 only when concrete affirmative evidence supports why the recording reaches the top band, not merely because meaningful defects are absent.
    - Do not raise Musicality because a work is famous, canonical, critically acclaimed, or commercially successful.
    - Do not lower Musicality merely because Mainstream Appeal is low.
 
@@ -89,12 +92,14 @@ The humanization pass may improve wording only. Evidence and scoring logic alway
 
 ## Output rules
 
-- Usually give 1–2 Genre labels and 1–3 Style labels.
+- Usually give 1 Genre label and 1–3 Style labels; add a second Genre only when the recording genuinely has two substantial broad-family identities.
 - Prefer dominant styles; omit trace influences that are not important to the track's identity.
 - Keep the default note compact and concrete.
 - Explain *why points are lost or earned* using audible/researched features: hook strength, flow, rhythmic accessibility, arrangement development, production texture, performance, dynamics, emotional progression, and structure.
 - For every score below 5/5, the note must name at least one concrete limitation that prevents the next higher score. A note that only describes the track is invalid.
+- For every 5/5, the note must name concrete affirmative evidence that supports the top band; “没有明显问题” alone is invalid.
 - Do not print the research process, source list, or a five-dimension scorecard unless the user asks.
+- In the default compact review, do not include artist/creator biography, album or release story, producer/remixer identity, charts, sales, awards, historical context, or style-history discussion. Use research context only to resolve and understand the current recording.
 - Never place citations, source markers, reference IDs, or URLs inside Genre, Style, 听感年代, 大众性, 音乐性, or 备注.
 - If the host requires citations, place them only after the complete compact review.
 - If evidence is incomplete, prefer a broader defensible label over a falsely precise label.

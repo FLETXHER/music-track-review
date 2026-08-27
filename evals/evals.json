@@ -90,5 +90,90 @@
         "References the deliberate old-school soul character in the reasoning"
       ]
     }
-  ]
+  ],
+  "v06_regression_notes": {
+    "model_generation_regression_status": "not_run_by_release_decision",
+    "same_case_protocol": [
+      "Run the unchanged eight calibration cases with the same model and research conditions before and after the ruleset change.",
+      "Keep the existing expected scores unchanged; compare score movement and output-contract behavior separately.",
+      "Treat subjective score agreement as human review rather than an automated benchmark claim."
+    ],
+    "objective_assertions": [
+      {
+        "id": "default-output-contract",
+        "case_ids": [1, 2, 3, 4, 5, 6, 7, 8],
+        "checks": [
+          "Returns only the six default output fields in the required order.",
+          "Does not include a research summary, sources, URLs, citation markers, scorecard, discard decision, lyrics review, recording-quality label, highlight field, or duration field.",
+          "Does not leak artist/creator biography, album or release story, producer/remixer identity, commercial performance, awards, historical context, cultural context, or style history into the compact review."
+        ]
+      },
+      {
+        "id": "citation-placement",
+        "case_ids": [1, 2, 3, 4, 5, 6, 7, 8],
+        "checks": [
+          "Keeps citations, source markers, reference IDs, and URLs outside every default field and note."
+        ]
+      },
+      {
+        "id": "exact-recording-and-era",
+        "case_ids": [3, 5, 8],
+        "checks": [
+          "Resolves the requested alternate recording or similarly titled track before scoring.",
+          "Does not use release date alone as the listening-era decision."
+        ]
+      },
+      {
+        "id": "natural-language-preservation",
+        "case_ids": [1, 2, 3, 4, 5, 6, 7, 8],
+        "checks": [
+          "Keeps the selected labels, era, scores, and scoring reasons unchanged when applying the natural-language cleanup pass."
+        ]
+      }
+    ],
+    "human_review_categories": [
+      {
+        "id": "professional-musicality-4-boundary",
+        "case_ids": [2, 3, 4, 5, 8],
+        "checks": [
+          "A stable professional 4/5 result does not fall to 3/5 merely for minor limits, conventional choices, or the absence of exceptional features.",
+          "A minor limitation is not treated as a failed core dimension."
+        ]
+      },
+      {
+        "id": "strict-musicality-5",
+        "case_ids": [1, 6, 7],
+        "checks": [
+          "Each 5/5 receives exceptional-band scrutiny and concrete affirmative musical evidence rather than generic praise or an absence-of-defects rationale.",
+          "If that evidence is not sufficient, flag the case for human recalibration without changing its existing gold score automatically."
+        ]
+      },
+      {
+        "id": "mainstream-5-affirmative-evidence",
+        "case_ids": [4],
+        "checks": [
+          "The 5/5 note gives multiple specific accessibility reasons instead of relying on polish, fame, or low friction alone."
+        ]
+      },
+      {
+        "id": "genre-style-normalization",
+        "case_ids": [1, 2, 3, 4, 5, 6, 7, 8],
+        "checks": [
+          "Uses normalized established public terms, keeps dominant styles first, omits trace influences, and avoids improvised compound labels."
+        ]
+      }
+    ],
+    "calibration_gaps": [
+      {
+        "id": "musicality-3-gold-case",
+        "status": "needs_manual_gold_case",
+        "reason": "The current set has no manually confirmed Musicality 3/5 case. Do not invent a fixed score solely to fill this gap."
+      }
+    ],
+    "drift_checks": [
+      "Flag a stable professional 4/5 result moving to 3/5 as a failure unless human review finds the required foundational weaknesses.",
+      "Flag a 4/5 result moving to 5/5 without new concrete affirmative evidence as a failure.",
+      "Do not use score-distribution targets; assess the recording-specific evidence instead."
+    ]
+  }
 }

@@ -16,15 +16,22 @@ Use established public style terms when they are strongly supported. A reference
 - For fine-grained style classification, Rate Your Music and AllMusic should be checked when accessible, then cross-checked with other appropriate sources.
 - Do not treat RYM or AllMusic as absolute authorities or whitelists.
 
+## Normalized vocabulary and dominance
+
+- Start with web-supported candidates, then normalize them to a standard, checkable public term where that improves consistency without losing the track's identity.
+- Put the dominant style first. Prefer one strongly supported style to several trace influences, and use 1–3 labels only when each one is materially part of the recording's identity.
+- Keep actual musical fit first: final labels should reflect the track's dominant audible identity.
+- A weak / trace influence that is not materially part of the track's identity should normally be omitted.
+- If fine-grained evidence is weak or conflicting, broaden the label instead of preserving a precise but unstable candidate.
+
 ## Workflow
 
-1. Form style candidates from the track's actual musical characteristics and public evidence.
-2. Check whether the terms are established names used by reputable music databases, publications, artists/labels, or specialist communities.
-3. Prefer the most informative 1–3 dominant labels.
-4. Normalize obvious near-synonyms when doing so improves consistency without losing meaning.
-5. Keep a regional, era-specific, or scene-specific descriptor when it is important and well supported.
-6. Omit trace influences that are incidental to the track.
-7. Never invent a compound label merely to describe a mixture.
+1. Form candidates from the recording's actual musical characteristics and public evidence.
+2. Check whether each candidate is an established name used by reputable databases, publications, artists/labels, or specialist communities.
+3. Normalize obvious near-synonyms and rank the candidates by dominant audible identity.
+4. Keep a regional, era-specific, or scene-specific descriptor when it is important and well supported.
+5. Omit trace influences and broaden weakly supported precision.
+6. Never invent a compound label merely to describe a mixture.
 
 ## Good behavior
 
@@ -43,7 +50,7 @@ Use established public style terms when they are strongly supported. A reference
 ## Genre versus Style
 
 Use Genre for broad families and Style for finer musical identity. Usually:
-- 1–2 Genres;
+- 1 Genre; use a second only when both broad-family identities are substantial;
 - 1–3 Styles.
 
 A hybrid track may legitimately use more than one Genre when the components are both substantial.

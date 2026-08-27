@@ -88,3 +88,11 @@ When reliable evidence is weak:
 - never fabricate credits, samples, dates, or style provenance.
 
 If the host cannot access the web, stop the normal workflow and tell the user that web research is unavailable.
+
+## 6. Research context and the final-output firewall
+
+Research may use artist or creator background, album/release details, featured-artist information, credits, dates, historical context, charts, awards, sales, and style history to resolve the exact recording or understand the music. That context is not default review content.
+
+The default compact output must discuss only the current recording's audible or directly relevant musical reasons. Do not include artist or creator biography, album/release story, producer/remixer identity, commercial performance, historical/cultural background, style history, research process, source list, or URLs.
+
+Credits never raise or lower a score because of who owns them. Mention a credit, instrument, sample, or production choice only when it explains a concrete musical effect. If the user explicitly asks for background, provide it separately from the compact review.
