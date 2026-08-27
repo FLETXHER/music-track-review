@@ -24,6 +24,12 @@ Use established public style terms when they are strongly supported. A reference
 - A weak / trace influence that is not materially part of the track's identity should normally be omitted.
 - If fine-grained evidence is weak or conflicting, broaden the label instead of preserving a precise but unstable candidate.
 
+### Final completeness check
+
+Before final output, ask whether an established Style that is clearly material to the current recording's identity has been omitted. Add it only when actual musical fit and material identity support it.
+
+This check does not require repeating every Genre as a Style, adding a generic duplicate, or filling all three Style slots. It prevents an established major identity from being omitted merely because narrower labels have already been selected.
+
 ## Workflow
 
 1. Form candidates from the recording's actual musical characteristics and public evidence.
@@ -32,6 +38,7 @@ Use established public style terms when they are strongly supported. A reference
 4. Keep a regional, era-specific, or scene-specific descriptor when it is important and well supported.
 5. Omit trace influences and broaden weakly supported precision.
 6. Never invent a compound label merely to describe a mixture.
+7. Run the final completeness check before returning the selected labels.
 
 ## Good behavior
 

@@ -91,7 +91,7 @@
       ]
     }
   ],
-  "v06_regression_notes": {
+  "v07_regression_notes": {
     "model_generation_regression_status": "not_run_by_release_decision",
     "same_case_protocol": [
       "Run the unchanged eight calibration cases with the same model and research conditions before and after the ruleset change.",
@@ -160,6 +160,48 @@
         "case_ids": [1, 2, 3, 4, 5, 6, 7, 8],
         "checks": [
           "Uses normalized established public terms, keeps dominant styles first, omits trace influences, and avoids improvised compound labels."
+        ]
+      },
+      {
+        "id": "note-five-dimension-coverage-mainstream",
+        "case_ids": [1, 2, 3, 4, 5, 6, 7, 8],
+        "checks": [
+          "The Mainstream Appeal portion of the note makes a concrete judgement about melody/hook, rhythm/groove, arrangement accessibility, timbre/mix accessibility, and structural familiarity without turning them into a five-subscore table."
+        ]
+      },
+      {
+        "id": "note-five-dimension-coverage-musicality",
+        "case_ids": [1, 2, 3, 4, 5, 6, 7, 8],
+        "checks": [
+          "The Musicality portion of the note makes a concrete judgement about melody/flow, arrangement/instrumentation, production/mix, vocal/performance, and emotion/expression, with form-appropriate handling for rap, spoken word, instrumental, or similar recordings."
+        ]
+      },
+      {
+        "id": "score-note-consistency",
+        "case_ids": [1, 2, 3, 4, 5, 6, 7, 8],
+        "checks": [
+          "The documented strengths, barriers, and foundational weaknesses logically support the final numeric scores; the note does not contradict its selected band."
+        ]
+      },
+      {
+        "id": "positive-highlights",
+        "case_ids": [1, 2, 3, 4, 5, 6, 7, 8],
+        "checks": [
+          "The compact note includes one or two concrete, recording-specific positive highlights inside the existing 备注 field rather than as a new output field."
+        ]
+      },
+      {
+        "id": "neutral-note-tone",
+        "case_ids": [1, 2, 3, 4, 5, 6, 7, 8],
+        "checks": [
+          "The note keeps a neutral professional diagnostic tone and does not use emoji, emoticons, jokes, slang-heavy phrasing, or overly personalized language."
+        ]
+      },
+      {
+        "id": "style-completeness",
+        "case_ids": [1, 2, 3, 4, 5, 6, 7, 8],
+        "checks": [
+          "The selected Styles do not omit a clearly material established identity merely because narrower labels are already present, while still avoiding generic duplicates and forced third labels."
         ]
       }
     ],

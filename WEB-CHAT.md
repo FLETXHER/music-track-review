@@ -1,6 +1,6 @@
 # Music Track Review — Web Chat Ruleset
 
-Ruleset version: v0.6
+Ruleset version: v0.7
 
 ## Usage
 
@@ -77,6 +77,12 @@ credits 不会因为署名者是谁而提高或降低分数。只有它们能解
 - RYM、AllMusic、Beatport、Discogs、MusicBrainz、官方介绍与专业媒体应相互印证，而不是把任一站点的所有 tag 全部抄入答案。
 - 弱/痕量影响若并非曲目身份的重要组成部分，通常省略。
 - 细分证据不足或相互冲突时，使用更宽的稳定标签，而不是保留看似精确但不可靠的候选。
+
+### Style completeness check
+
+Before final output, check whether an established Style that is clearly material to the current recording's identity has been omitted. Add it only when actual musical fit and material identity support it.
+
+This does not require repeating every Genre as a Style, adding a generic duplicate, or filling all three Style slots. It prevents an established major identity from being omitted merely because narrower labels have already been selected.
 
 ## Listening era
 
@@ -207,10 +213,17 @@ credits 不会因为署名者是谁而提高或降低分数。只有它们能解
 
 ## Notes
 
-备注只解释两件事：
+备注分别解释大众性和音乐性：每一项都要让读者看出五个相关维度的判断、当前分数的支撑因素，以及在更高档仍可能时的限制因素。
 
-- 为什么大众性得到这个分；
-- 为什么音乐性得到这个分。
+### Five-dimension coverage
+
+默认备注中每一个数字分数都必须覆盖其五个相关维度。这是内容覆盖要求，不是五维小分、PASS/FAIL 表、平均分公式，也不能把轻微局限机械当成扣分。
+
+- **大众性：** 对 melody / hook、rhythm / groove、arrangement accessibility、timbre / mix accessibility、structural familiarity 都给出针对当前录音的实际判断。
+- **音乐性：** 对 melody / flow、arrangement / instrumentation、production / mix、vocal / performance、emotion / expression 都给出针对当前录音的实际判断。
+- 对 rap、spoken word、器乐、以器乐为主的电子音乐及类似形式，Vocal / performance 应改为与该录音相符的 performance / execution 判断；不得硬造传统人声证据。
+
+用短分句自然覆盖，不显示英文维度标题、内部小分或通过/失败标签。
 
 ### Score-note requirement
 
@@ -238,9 +251,28 @@ credits 不会因为署名者是谁而提高或降低分数。只有它们能解
 
 credits、制作人、乐器等只有在它们能够解释具体音乐表现时才可以出现。
 
+### Score-to-note consistency check
+
+输出前依次检查：
+
+1. 先按既有 rubric 选择分数；
+2. 用五个相关维度写出支撑该分数的具体理由，以及适用时阻止更高一档的限制；
+3. 比对文字与分数是否一致；
+4. 如有冲突，修订备注或分数，使两者重新一致。
+
+例如，大众性 5/5 不能同时把多个实质性可及性门槛写成未解决问题；音乐性 3/5 也不能只描述稳定专业表现和轻微局限。此检查不把五个维度变成算术，也不把轻微局限当作基础性弱点。
+
+### Positive highlights
+
+默认备注必须在同一 `备注` 字段中包含 1–2 个具体、针对该录音的正向亮点；可用 `亮点：……` 短语，但不得新增独立字段。亮点可以来自 Hook、Flow、律动设计、编配、乐器、音色设计、混音或动态、人声控制、情绪推进、和声移动或段落衔接。
+
+### Neutral work-note tone
+
+备注使用中性、专业、诊断式的工作记录语气。不得使用 emoji、颜文字、meme、玩笑、夸张感叹、重口语俚语、过度个人化表达、反问句或第一人称偏好。“很好听”“很高级”“很炸”“很有感觉”“完成度高”等泛泛夸奖，除非紧接具体音乐原因，否则不能作为亮点。
+
 Good:
 
-`大众性3分：旋律反复句有入口，但长篇verse推进和弱旋律型副歌限制了进一步的流行接受度；音乐性4分：Flow与采样编排结合成熟，但段落变化和编曲发展仍不足以达到5分。`
+`大众性3分：反复句提供旋律入口，鼓点律动稳定；采样层次可读，音色整体易接受；长篇verse推进和弱旋律型副歌削弱结构回归感。音乐性4分：Flow与旋律重音自然，编配与制作层次连贯；说唱控制稳定，情绪推进清楚，但段落发展仍较克制。亮点：Flow控制与采样层次的配合。`
 
 Invalid:
 
@@ -248,13 +280,13 @@ Invalid:
 
 备注固定结构：
 
-`备注：大众性X分：……；音乐性X分：……。`
+`备注：大众性X分：……；音乐性X分：……；亮点：……。`
 
 备注中禁止写与评分无关的发行背景、是否单曲、榜单、销量、艺人知名度、文化地位或歌词主题。只有当歌词主题确实直接影响音乐表现且与分数有关时，才可极简提及。
 
-不要逐项复述五个维度；只写真正推动分数变化的最强原因。好的备注应短但有诊断性，例如：
+五维必须被覆盖，但不要写成评分表。用短分句呈现各维度最有力的具体证据，并保持紧凑可读。好的备注应短但有诊断性，例如：
 
-`大众性3分：核心反复句有记忆点，但篇幅偏长、强副歌感较弱；音乐性4分：人声叙事与乐队氛围结合自然，但编曲发展相对克制。`
+`大众性4分：旋律与Hook清楚，groove稳定；编配层次易读，音色平衡自然；段落回归明确，但副歌推进仍有限。音乐性4分：旋律或Flow连贯，配器与制作服务段落；表演控制稳定，情绪表达完整，但发展幅度不足以到5分。亮点：Hook与段落推进的衔接。`
 
 不要写成：
 
@@ -286,7 +318,8 @@ For the note:
 - avoid formulaic “不仅……更……” / “既……又……” constructions when a simpler sentence works;
 - avoid vague praise such as “表现出色”“完成度很高” unless followed by the concrete musical reason;
 - avoid repetitive AI-style transitions;
-- keep the existing compact `大众性X分：……；音乐性X分：……。` structure.
+- use a neutral, professional, diagnostic work-note tone; avoid emoji, emoticons, memes, jokes, exaggerated exclamations, slang-heavy phrasing, rhetorical questions, and first-person preference;
+- keep the compact `大众性X分：……；音乐性X分：……；亮点：……。` structure.
 
 The humanization pass may improve wording only. Evidence and scoring logic always take priority.
 
@@ -301,7 +334,7 @@ Style：...
 大众性：X/5
 音乐性：X/5
 
-备注：大众性X分：……；音乐性X分：……。
+备注：大众性X分：……；音乐性X分：……；亮点：……。
 ```
 
 不得增加 `Track`、`Label`、`Released`、`Length`、`Comments`、`Sound`、`Listening Era` 或其他字段。
@@ -321,7 +354,7 @@ Style：East Coast Rap / Hardcore Hip-Hop / Soul
 大众性：3/5
 音乐性：5/5
 
-备注：大众性3分：Soul采样和整体律动较易接受，但歌曲以长段说唱推进为主，旋律型副歌及传统Pop结构感较弱；音乐性5分：Flow控制稳定，铜管、吉他与弦乐采样层次丰富，段落动态和情绪推进突出，整体制作与说唱表达结合度高。
+备注：大众性3分：反复句和采样主题提供旋律入口；鼓点与Soul律动稳定；采样编排层次可读；音色与混音饱满但戏剧性较强；长篇verse推进、传统副歌回归有限，降低广泛接受度。音乐性5分：Flow与重音控制自然；铜管、吉他与弦乐采样形成有推进的编配；制作层次和动态服务段落；说唱表达清晰受控；戏剧张力随段落累积并与整体声音统一。亮点：Flow控制与采样编排的动态推进。
 ```
 
 ### Joji — Die For You
@@ -333,7 +366,7 @@ Style：Alternative R&B / Downtempo / Alt-Pop
 大众性：5/5
 音乐性：4/5
 
-备注：大众性5分：旋律和副歌记忆点明确，结构、制作和人声都高度流行化，慢速氛围并未明显增加接受门槛；音乐性4分：人声情绪、旋律和空间化制作完成度较高，但编曲发展和声音设计整体偏克制。
+备注：大众性5分：旋律与副歌记忆点明确；慢速groove稳定直接；编配层次清楚、段落入口低；人声和空间化制作易接受；副歌回归与结构辨识度高。音乐性4分：旋律走向与情绪贴合；编配服务副歌但发展较克制；空间化制作平衡且有层次；人声控制稳定、表达自然；整体氛围连贯，但声音设计和段落推进不足以到5分。亮点：副歌Hook与空间化制作的配合。
 ```
 
 ### Kali Uchis — Killer
@@ -345,5 +378,5 @@ Style：Soul / Retro Soul / Contemporary R&B
 大众性：4/5
 音乐性：4/5
 
-备注：大众性4分：旋律与演唱容易接受，结构接近传统Soul Ballad，但慢速推进和明显老派Soul审美使它比现代商业Pop稍窄；音乐性4分：鼓、贝斯、钢琴、吉他、铜管及弦乐形成丰满自然的编配，人声情绪完成度高，但整体保持传统和克制。
+备注：大众性4分：旋律和演唱易接受；慢速Soul律动平稳但即时性较低；鼓、贝斯、钢琴、吉他、铜管与弦乐形成易读的编配；温暖而老派的音色整体舒适；传统Soul Ballad结构清楚，但复古取向和慢速推进让受众略窄。音乐性4分：旋律与唱腔贴合；配器丰富且连贯；制作平衡自然、层次完整；人声控制稳定、情绪到位；整体氛围统一，但段落发展保持传统克制。亮点：人声与丰满Soul编配的结合。
 ```

@@ -115,6 +115,33 @@ Do not impose a quota of features. The evidence must be specific to the recordin
 
 A score note is part of the scoring decision, not merely a description of the track. It must show both the evidence that supports the score and the evidence that limits it when a higher band is possible.
 
+### Five-dimension coverage
+
+The default note must cover all five relevant dimensions for each numeric score. This is a content-coverage gate, not a five-subscore table, an arithmetic formula, or a reason to count minor limitations mechanically.
+
+- **Mainstream Appeal** — make a concrete judgement about melody / hook, rhythm / groove, arrangement accessibility, timbre / mix accessibility, and structural familiarity.
+- **Musicality** — make a concrete judgement about melody / flow, arrangement / instrumentation, production / mix, vocal / performance, and emotion / expression.
+- For rap, spoken word, instrumental, instrumental-forward electronic music, and similar forms, handle the vocal / performance dimension as form-appropriate performance or execution. Do not fabricate conventional vocal evidence.
+
+Use compact natural-language clauses rather than printed dimension headings, pass/fail labels, or internal scores. Each score section must show what supports the selected band and, where a higher band is possible, what limits it.
+
+### Score-to-note consistency check
+
+Before final output:
+
+1. choose the score candidate;
+2. write the five-dimension evidence, including supports and limitations;
+3. compare the documented strengths, barriers, and foundational weaknesses with the chosen score;
+4. revise the note or score if they materially conflict.
+
+Do not leave a note that describes several broad-listener barriers while claiming Mainstream Appeal 5/5, or a note that describes a stable professional result with only minor limitations while mechanically reducing Musicality to 3/5.
+
+### Positive highlights and tone
+
+Include 1–2 concrete, recording-specific positive highlights inside the same note. A highlight may concern a hook, flow, rhythmic design, arrangement, instrumentation, sound design, mix or dynamics, vocal control, emotional progression, harmonic movement, or a section transition. Do not create a standalone highlight field.
+
+The note must use a neutral, professional, diagnostic work-note tone. Do not use emoji, emoticons, memes, jokes, exaggerated exclamations, slang-heavy or overly personalized language, rhetorical questions, or first-person preference. Vague praise such as “很好听”, “很高级”, “很炸”, “很有感觉”, or “完成度高” is not a highlight unless immediately tied to a concrete musical reason.
+
 - **5/5** — state concrete affirmative evidence for the top band and why 4/5 is not enough; do not use “没有明显问题” as the reason.
 - **4/5** — state the main strengths and at least one specific reason it is not 5/5. A minor limitation is sufficient here and does not make the track a 3/5.
 - **3/5** — state at least one genuine strength or point of entry, then the foundational weakness pattern that prevents 4/5.
@@ -126,7 +153,7 @@ A note that only describes what the track contains is invalid. It must explain w
 Do not substitute release background, single status, artist fame, charts, sales, awards, cultural status, album background, or credits themselves for a deduction reason. Credits, producers, or instruments may appear only when they explain a specific musical result.
 
 Good:
-- `大众性3分：旋律反复句有入口，但长篇verse推进和弱旋律型副歌限制了进一步的流行接受度；音乐性4分：Flow与采样编排结合成熟，但段落变化和编曲发展仍不足以达到5分。`
+- `大众性3分：反复句提供旋律入口，鼓点律动稳定；采样层次可读，音色整体易接受；长篇verse推进和弱旋律型副歌削弱结构回归感。音乐性4分：Flow与旋律重音自然，编配与制作层次连贯；说唱控制稳定，情绪推进清楚，但段落发展仍较克制。亮点：Flow控制与采样层次的配合。`
 
 Invalid:
 - `大众性3分：歌曲使用Soul采样，由某制作人制作；音乐性4分：歌手表现很好。`
@@ -136,9 +163,9 @@ Invalid:
 The note should be short but diagnostic.
 
 Good:
-- `大众性3分：核心反复句有记忆点，但篇幅偏长、强副歌感较弱；音乐性4分：人声叙事与乐队氛围结合自然，但编曲发展相对克制。`
+- `大众性4分：旋律与Hook清楚，groove稳定；编配层次易读，音色平衡自然；段落回归明确，但副歌推进仍有限。音乐性4分：旋律或Flow连贯，配器与制作服务段落；表演控制稳定，情绪表达完整，但发展幅度不足以到5分。亮点：Hook与段落推进的衔接。`
 
 Weak:
 - `大众性一般；音乐性不错。`
 
-Do not explain every dimension. Mention the strongest reasons that actually moved the score.
+Cover every relevant dimension with concise clauses. Do not turn the note into a scorecard; use the strongest concrete evidence within each dimension and keep the result readable.

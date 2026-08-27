@@ -33,6 +33,8 @@ https://raw.githubusercontent.com/FLETXHER/music-track-review/main/WEB-CHAT.md
 7. 音乐性 5/5 是否必须提供明确的正向证据？
 8. 默认短评是否可以加入艺人、专辑或发行背景？
 9. citation / reference marker 是否允许出现在 Genre、Style、听感年代、大众性、音乐性或“备注”字段内部？
+10. 默认备注是否只需要写最强的几个理由，还是必须覆盖对应评分的五个判断维度？
+11. 默认备注是否应包含1–2个具体正向亮点？
 
 如果读取正确，之后等待我发送 Artist - Track。
 
@@ -44,7 +46,7 @@ https://raw.githubusercontent.com/FLETXHER/music-track-review/main/WEB-CHAT.md
 
 校验正确结果依次为：
 
-1. `v0.6`
+1. `v0.7`
 2. `2/5`
 3. `3/5`
 4. `5/5`
@@ -53,6 +55,8 @@ https://raw.githubusercontent.com/FLETXHER/music-track-review/main/WEB-CHAT.md
 7. `是，必须`
 8. `不允许`
 9. `不允许`
+10. `必须覆盖对应评分的五个判断维度。`
+11. `是。`
 
 如果回答与上述结果不一致，请让模型重新读取 `WEB-CHAT.md` 后再开始分析歌曲。
 
@@ -61,7 +65,7 @@ https://raw.githubusercontent.com/FLETXHER/music-track-review/main/WEB-CHAT.md
 
 ## Web Chat Compatibility
 
-Compatibility observations below are based on prior web-chat testing and may change with model or product versions. v0.6 was not re-benchmarked across every listed platform before release.
+Compatibility observations below are based on prior web-chat testing and may change with model or product versions. v0.7 was not re-benchmarked across every listed platform before release.
 
 | Platform | Status | Notes |
 | --- | --- | --- |
@@ -106,6 +110,8 @@ Gemini Web currently requires importing the GitHub repository instead of reading
 7. 音乐性 5/5 是否必须提供明确的正向证据？
 8. 默认短评是否可以加入艺人、专辑或发行背景？
 9. citation / reference marker 是否允许出现在 Genre、Style、听感年代、大众性、音乐性或“备注”字段内部？
+10. 默认备注是否只需要写最强的几个理由，还是必须覆盖对应评分的五个判断维度？
+11. 默认备注是否应包含1–2个具体正向亮点？
 
 读取正确后等待我发送 Artist - Track。
 ```
@@ -128,7 +134,7 @@ Style：...
 大众性：X/5
 音乐性：X/5
 
-备注：大众性X分：……；音乐性X分：……。
+备注：大众性X分：……；音乐性X分：……；亮点：……。
 ```
 
 The default answer stays short. Long-form research, source-by-source discussion, and dimension tables are only shown when the user asks.
@@ -141,6 +147,7 @@ The default answer stays short. Long-form research, source-by-source discussion,
 - Do not create temporary compound labels; no hard whitelist applies.
 - Use broad genre families as orientation, not as a restrictive whitelist.
 - Score **Mainstream Appeal** and **Musicality** independently.
+- Cover all five relevant dimensions for each score in the compact note, and include 1–2 concrete positive highlights inside that same note.
 - Separate recording/release year from **listening era**. A modern release can sound retro; an older recording can still have a modern listening character.
 - If reliable web access is unavailable, say so instead of pretending research was performed.
 
@@ -176,7 +183,7 @@ Not included by default:
 
 ## Status
 
-Current web-chat ruleset: **v0.6**
+Current web-chat ruleset: **v0.7**
 
 The project remains calibration-oriented. Examples and evals are intended to improve consistency across models, not to claim that every genre/style label or score is objectively unique or immutable.
 
