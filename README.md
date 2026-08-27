@@ -34,7 +34,8 @@ https://raw.githubusercontent.com/FLETXHER/music-track-review/main/WEB-CHAT.md
 8. 默认短评是否可以加入艺人、专辑或发行背景？
 9. citation / reference marker 是否允许出现在 Genre、Style、听感年代、大众性、音乐性或“备注”字段内部？
 10. 默认备注是否只需要写最强的几个理由，还是必须覆盖对应评分的五个判断维度？
-11. 默认备注是否应包含1–2个具体正向亮点？
+11. 默认备注应优先包含几个具体正向亮点？
+12. 五维覆盖是否要求把五个维度逐条展开成长备注？
 
 如果读取正确，之后等待我发送 Artist - Track。
 
@@ -56,7 +57,8 @@ https://raw.githubusercontent.com/FLETXHER/music-track-review/main/WEB-CHAT.md
 8. `不允许`
 9. `不允许`
 10. `必须覆盖对应评分的五个判断维度。`
-11. `是。`
+11. `1个；第二个仅在提供明显不同价值时加入。`
+12. `不要求。内部完整检查，最终用高信息密度短分句合并表达。`
 
 如果回答与上述结果不一致，请让模型重新读取 `WEB-CHAT.md` 后再开始分析歌曲。
 
@@ -111,7 +113,8 @@ Gemini Web currently requires importing the GitHub repository instead of reading
 8. 默认短评是否可以加入艺人、专辑或发行背景？
 9. citation / reference marker 是否允许出现在 Genre、Style、听感年代、大众性、音乐性或“备注”字段内部？
 10. 默认备注是否只需要写最强的几个理由，还是必须覆盖对应评分的五个判断维度？
-11. 默认备注是否应包含1–2个具体正向亮点？
+11. 默认备注应优先包含几个具体正向亮点？
+12. 五维覆盖是否要求把五个维度逐条展开成长备注？
 
 读取正确后等待我发送 Artist - Track。
 ```
@@ -147,7 +150,8 @@ The default answer stays short. Long-form research, source-by-source discussion,
 - Do not create temporary compound labels; no hard whitelist applies.
 - Use broad genre families as orientation, not as a restrictive whitelist.
 - Score **Mainstream Appeal** and **Musicality** independently.
-- Cover all five relevant dimensions for each score in the compact note, and include 1–2 concrete positive highlights inside that same note.
+- Cover all five relevant dimensions for each score in the compact note, and include one concrete positive highlight; add a second only when it contributes distinct value.
+- Check all five dimensions internally, then compress each score into 2–3 high-density clauses; remove repetition and keep the default note a compact review rather than an audit report.
 - Separate recording/release year from **listening era**. A modern release can sound retro; an older recording can still have a modern listening character.
 - If reliable web access is unavailable, say so instead of pretending research was performed.
 

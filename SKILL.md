@@ -50,7 +50,7 @@ Turn a minimal input such as `Artist - Track` into a compact, repeatable music r
    - Find concrete strengths and limitations before choosing the number.
    - Treat 4/5 Musicality as the normal professional pass band; use 3/5 only when a clear pattern of foundational weakness materially prevents a stable professional result. Do not count dimensions mechanically.
    - For either score, award 5/5 only when concrete affirmative evidence supports why the recording reaches the top band, not merely because meaningful defects are absent.
-   - Before finalizing, make the compact note cover all five relevant dimensions for each score, compare the note with the chosen numbers, and resolve any contradiction without changing the rubric into arithmetic.
+   - Before finalizing, check all five relevant dimensions for each score internally, then use the note-compression gate to merge their evidence into compact wording. Compare the note with the chosen numbers and resolve any contradiction without changing the rubric into arithmetic.
    - Do not raise Musicality because a work is famous, canonical, critically acclaimed, or commercially successful.
    - Do not lower Musicality merely because Mainstream Appeal is low.
 
@@ -88,22 +88,35 @@ For the note:
 - avoid vague praise such as “表现出色”“完成度很高” unless followed by the concrete musical reason;
 - avoid repetitive AI-style transitions;
 - use a neutral, professional, diagnostic work-note tone; avoid emoji, emoticons, memes, slang-heavy phrasing, exaggerated exclamations, and social-post language;
+- merge related evidence into high-density short clauses instead of expanding every dimension into a separate sentence;
+- default to one summary-level highlight; add a second only when it contributes distinct value and does not restate the body;
 - keep the compact `大众性X分：……；音乐性X分：……；亮点：……。` structure.
 
 The humanization pass may improve wording only. Evidence and scoring logic always take priority.
+
+### Note compression gate
+
+**Internal coverage = exhaustive; final wording = compressed.**
+
+1. Check all five relevant dimensions internally, then select the score and its supporting and limiting evidence.
+2. Merge complementary dimensions into two or three high-density clauses for each score; do not write a dimension-by-dimension audit report.
+3. Remove repeated, synonymous, or score-irrelevant wording.
+4. Confirm that the compressed note still makes all five dimensions discernible and still supports the selected score.
+
+Aim for roughly 110–160 Chinese characters for the whole note and normally stay below 180. This is a compression target, not permission to omit necessary evidence.
 
 ## Output rules
 
 - Usually give 1 Genre label and 1–3 Style labels; add a second Genre only when the recording genuinely has two substantial broad-family identities.
 - Prefer dominant styles; omit trace influences that are not important to the track's identity.
 - Before final output, check whether an established Style that is clearly material to the recording's identity has been omitted; add it only when actual musical fit supports it, and do not force a generic duplicate or a third label.
-- Keep the default note compact and concrete.
-- For each numeric score, cover all five relevant dimensions in concise natural-language clauses. For instrumental, rap, spoken-word, or similar recordings, assess performance/execution appropriately instead of fabricating conventional vocal evidence.
+- Keep the default note compact and concrete: the final wording is not an audit report.
+- For each numeric score, cover all five relevant dimensions as an exhaustive internal check, then merge related evidence into two or three concise natural-language clauses. For instrumental, rap, spoken-word, or similar recordings, assess performance/execution appropriately instead of fabricating conventional vocal evidence.
 - This is a coverage requirement, not a five-subscore table, an arithmetic formula, or a reason to count minor limitations as deductions.
 - Explain *why points are lost or earned* using audible/researched features: hook strength, flow, rhythmic accessibility, arrangement development, production texture, performance, dynamics, emotional progression, and structure.
 - For every score below 5/5, the note must name at least one concrete limitation that prevents the next higher score. A note that only describes the track is invalid.
 - For every 5/5, the note must name concrete affirmative evidence that supports the top band; “没有明显问题” alone is invalid.
-- Include 1–2 concrete, recording-specific positive highlights inside the same `备注` field; do not add a standalone highlight field.
+- Include one concrete, recording-specific positive highlight inside the same `备注` field by default; add a second only when it adds distinct value. Do not repeat the body verbatim or add a standalone highlight field.
 - Before output, run a score-to-note consistency check: the documented strengths, barriers, and foundational weaknesses must support the selected number. Revise the note or score if they conflict.
 - Do not print the research process, source list, or a five-dimension scorecard unless the user asks.
 - In the default compact review, do not include artist/creator biography, album or release story, producer/remixer identity, charts, sales, awards, historical context, or style-history discussion. Use research context only to resolve and understand the current recording.

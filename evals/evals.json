@@ -187,7 +187,17 @@
         "id": "positive-highlights",
         "case_ids": [1, 2, 3, 4, 5, 6, 7, 8],
         "checks": [
-          "The compact note includes one or two concrete, recording-specific positive highlights inside the existing 备注 field rather than as a new output field."
+          "The compact note includes one concrete, recording-specific positive highlight inside the existing 备注 field by default; a second is used only when it adds distinct value and does not restate the body."
+        ]
+      },
+      {
+        "id": "note-compression",
+        "case_ids": [1, 2, 3, 4, 5, 6, 7, 8],
+        "checks": [
+          "Internally checks all five relevant dimensions for each score while rendering each score section as two or three high-density grouped clauses rather than a dimension-by-dimension audit report.",
+          "Removes clearly repeated or synonymous evidence while keeping score supports, score limits, and five-dimension coverage discernible.",
+          "Keeps Mainstream Appeal and Musicality compact, and uses a summary-level highlight that does not merely repeat the body.",
+          "Targets roughly 110–160 Chinese characters for the full note and normally stays below 180 unless more wording is necessary to preserve accurate evidence."
         ]
       },
       {

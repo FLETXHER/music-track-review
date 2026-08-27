@@ -125,6 +125,27 @@ The default note must cover all five relevant dimensions for each numeric score.
 
 Use compact natural-language clauses rather than printed dimension headings, pass/fail labels, or internal scores. Each score section must show what supports the selected band and, where a higher band is possible, what limits it.
 
+### Note compression gate
+
+**Internal coverage = exhaustive; final wording = compressed.**
+
+Before final output:
+
+1. check all five relevant dimensions internally;
+2. choose the score and its supporting and limiting evidence;
+3. merge related dimensions into high-density short clauses;
+4. delete repeated, synonymous, or score-irrelevant wording;
+5. confirm that all five dimensions remain discernible after compression.
+
+Use two or three information blocks for each score section whenever the evidence allows:
+
+- **Mainstream Appeal** — usually merge melody / hook with rhythm / groove; arrangement accessibility with timbre / mix accessibility; then structural familiarity with the principal accessibility limit or supporting reason.
+- **Musicality** — usually merge melody / flow with arrangement / instrumentation; production / mix with vocal / performance; then emotion / expression with the principal limit or supporting reason.
+
+These are compression patterns, not a replacement for any dimension. The default note is not an audit report and must not expand into one full sentence per dimension.
+
+Aim for roughly 110–160 Chinese characters for the whole note and normally stay below 180. This is a compression target, not a reason to drop necessary five-dimension evidence.
+
 ### Score-to-note consistency check
 
 Before final output:
@@ -138,7 +159,7 @@ Do not leave a note that describes several broad-listener barriers while claimin
 
 ### Positive highlights and tone
 
-Include 1–2 concrete, recording-specific positive highlights inside the same note. A highlight may concern a hook, flow, rhythmic design, arrangement, instrumentation, sound design, mix or dynamics, vocal control, emotional progression, harmonic movement, or a section transition. Do not create a standalone highlight field.
+Include one concrete, recording-specific positive highlight inside the same note by default. Add a second only when it contributes distinct value. A highlight may concern a hook, flow, rhythmic design, arrangement, instrumentation, sound design, mix or dynamics, vocal control, emotional progression, harmonic movement, or a section transition. It should summarize a relationship or payoff rather than repeat the body verbatim. Do not create a standalone highlight field.
 
 The note must use a neutral, professional, diagnostic work-note tone. Do not use emoji, emoticons, memes, jokes, exaggerated exclamations, slang-heavy or overly personalized language, rhetorical questions, or first-person preference. Vague praise such as “很好听”, “很高级”, “很炸”, “很有感觉”, or “完成度高” is not a highlight unless immediately tied to a concrete musical reason.
 
@@ -153,7 +174,7 @@ A note that only describes what the track contains is invalid. It must explain w
 Do not substitute release background, single status, artist fame, charts, sales, awards, cultural status, album background, or credits themselves for a deduction reason. Credits, producers, or instruments may appear only when they explain a specific musical result.
 
 Good:
-- `大众性3分：反复句提供旋律入口，鼓点律动稳定；采样层次可读，音色整体易接受；长篇verse推进和弱旋律型副歌削弱结构回归感。音乐性4分：Flow与旋律重音自然，编配与制作层次连贯；说唱控制稳定，情绪推进清楚，但段落发展仍较克制。亮点：Flow控制与采样层次的配合。`
+- `大众性3分：反复句与鼓点提供入口，采样层次和音色易读；长篇verse与弱旋律副歌削弱结构回归。音乐性4分：Flow与采样编配连贯，制作平衡、说唱控制稳定；情绪推进清楚，但段落发展较克制。亮点：Flow重音与采样动态的联动。`
 
 Invalid:
 - `大众性3分：歌曲使用Soul采样，由某制作人制作；音乐性4分：歌手表现很好。`
@@ -163,9 +184,9 @@ Invalid:
 The note should be short but diagnostic.
 
 Good:
-- `大众性4分：旋律与Hook清楚，groove稳定；编配层次易读，音色平衡自然；段落回归明确，但副歌推进仍有限。音乐性4分：旋律或Flow连贯，配器与制作服务段落；表演控制稳定，情绪表达完整，但发展幅度不足以到5分。亮点：Hook与段落推进的衔接。`
+- `大众性4分：旋律与Hook清楚、groove稳定，编配和音色易读；段落回归明确，但副歌推进有限。音乐性4分：旋律或Flow与配器自然，制作平衡、表演稳定；情绪完整，但发展幅度不足以到5分。亮点：Hook与段落推进的衔接。`
 
 Weak:
 - `大众性一般；音乐性不错。`
 
-Cover every relevant dimension with concise clauses. Do not turn the note into a scorecard; use the strongest concrete evidence within each dimension and keep the result readable.
+Cover every relevant dimension through grouped concise clauses. Do not turn the note into a scorecard or a dimension-by-dimension report; use the strongest non-redundant evidence and keep the result readable.
