@@ -33,9 +33,9 @@ https://raw.githubusercontent.com/FLETXHER/music-track-review/main/WEB-CHAT.md
 7. 音乐性 5/5 是否必须提供明确的正向证据？
 8. 默认短评是否可以加入艺人、专辑或发行背景？
 9. citation / reference marker 是否允许出现在 Genre、Style、听感年代、大众性、音乐性或“备注”字段内部？
-10. 默认备注是否只需要写最强的几个理由，还是必须覆盖对应评分的五个判断维度？
-11. 默认备注应优先包含几个具体正向亮点？
-12. 五维覆盖是否要求把五个维度逐条展开成长备注？
+10. 默认备注的五维判断是如何要求的？
+11. 3/5 或 4/5 的默认备注是否必须额外追加“亮点：”？
+12. 默认备注的长度和写法目标是什么？
 
 如果读取正确，之后等待我发送 Artist - Track。
 
@@ -56,9 +56,9 @@ https://raw.githubusercontent.com/FLETXHER/music-track-review/main/WEB-CHAT.md
 7. `是，必须`
 8. `不允许`
 9. `不允许`
-10. `必须覆盖对应评分的五个判断维度。`
-11. `1个；第二个仅在提供明显不同价值时加入。`
-12. `不要求。内部完整检查，最终用高信息密度短分句合并表达。`
+10. `内部必须完整检查五维；最终备注选择性压缩，不必逐项展开。`
+11. `不必须；只有非重复且有记录价值的亮点才加入。`
+12. `约60–100个中文字符，通常不超过约120；内部完整检查后写成简短 QC 工作记录。`
 
 如果回答与上述结果不一致，请让模型重新读取 `WEB-CHAT.md` 后再开始分析歌曲。
 
@@ -112,9 +112,9 @@ Gemini Web currently requires importing the GitHub repository instead of reading
 7. 音乐性 5/5 是否必须提供明确的正向证据？
 8. 默认短评是否可以加入艺人、专辑或发行背景？
 9. citation / reference marker 是否允许出现在 Genre、Style、听感年代、大众性、音乐性或“备注”字段内部？
-10. 默认备注是否只需要写最强的几个理由，还是必须覆盖对应评分的五个判断维度？
-11. 默认备注应优先包含几个具体正向亮点？
-12. 五维覆盖是否要求把五个维度逐条展开成长备注？
+10. 默认备注的五维判断是如何要求的？
+11. 3/5 或 4/5 的默认备注是否必须额外追加“亮点：”？
+12. 默认备注的长度和写法目标是什么？
 
 读取正确后等待我发送 Artist - Track。
 ```
@@ -137,7 +137,7 @@ Style：...
 大众性：X/5
 音乐性：X/5
 
-备注：大众性X分：……；音乐性X分：……；亮点：……。
+备注：大众性X分：……；音乐性X分：……。
 ```
 
 The default answer stays short. Long-form research, source-by-source discussion, and dimension tables are only shown when the user asks.
@@ -150,8 +150,9 @@ The default answer stays short. Long-form research, source-by-source discussion,
 - Do not create temporary compound labels; no hard whitelist applies.
 - Use broad genre families as orientation, not as a restrictive whitelist.
 - Score **Mainstream Appeal** and **Musicality** independently.
-- Cover all five relevant dimensions for each score in the compact note, and include one concrete positive highlight; add a second only when it contributes distinct value.
-- Check all five dimensions internally, then compress each score into 2–3 high-density clauses; remove repetition and keep the default note a compact review rather than an audit report.
+- Check all five relevant dimensions internally for each score, then write only the score-moving evidence; do not turn the final note into a dimension-by-dimension report.
+- Keep the default note as a concise QC work note: direct, problem-oriented, and roughly 60–100 Chinese characters (normally at or below about 120). Preserve correctness first, then remove repetition, Style restatement, and nonessential background.
+- For 3/5 and 4/5, an inline highlight is optional and must add non-redundant value. Every 5/5 still needs concrete affirmative evidence, which may be integrated into its score explanation rather than added as a fixed `亮点：` clause.
 - Separate recording/release year from **listening era**. A modern release can sound retro; an older recording can still have a modern listening character.
 - If reliable web access is unavailable, say so instead of pretending research was performed.
 

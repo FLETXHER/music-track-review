@@ -213,34 +213,34 @@ This does not require repeating every Genre as a Style, adding a generic duplica
 
 ## Notes
 
-备注分别解释大众性和音乐性：每一项都要让读者看出五个相关维度的判断、当前分数的支撑因素，以及在更高档仍可能时的限制因素。
+备注分别解释大众性和音乐性：每个数字分数都必须先经过五个相关维度的完整内部判断，再选择性写出当前分数的支撑因素，以及在更高档仍可能时的限制因素。
 
 ### Five-dimension coverage
 
-默认备注中每一个数字分数都必须覆盖其五个相关维度。这是内容覆盖要求，不是五维小分、PASS/FAIL 表、平均分公式，也不能把轻微局限机械当成扣分。
+每一个数字分数都必须经过其五个相关维度的完整内部检查。这是评分决策的硬性内容覆盖要求，不是五维小分、PASS/FAIL 表、平均分公式，也不能把轻微局限机械当成扣分。最终备注不必逐项复述五维。
 
 - **大众性：** 对 melody / hook、rhythm / groove、arrangement accessibility、timbre / mix accessibility、structural familiarity 都给出针对当前录音的实际判断。
 - **音乐性：** 对 melody / flow、arrangement / instrumentation、production / mix、vocal / performance、emotion / expression 都给出针对当前录音的实际判断。
 - 对 rap、spoken word、器乐、以器乐为主的电子音乐及类似形式，Vocal / performance 应改为与该录音相符的 performance / execution 判断；不得硬造传统人声证据。
 
-五维必须完整检查，但最终用合并的高信息密度短分句呈现；不显示英文维度标题、内部小分或通过/失败标签。
+五维一个都不能漏于内部检查；最终备注只保留影响分数的、合并后的高信息密度短分句。不显示英文维度标题、内部小分或通过/失败标签。
 
 ### Note compression gate
 
-**Internal coverage = exhaustive; final wording = compressed.**
+**Check comprehensively → write selectively and compactly.**
 
 输出前依次执行：
 
 1. 内部完整检查五个维度；
-2. 确定分数与支撑/限制证据；
-3. 将相关维度合并成每项 2–3 个高信息密度短分句；
-4. 删除重复、同义或对分数没有新增信息的表达；
-5. 确认压缩后仍能从备注中判断五个维度均已被考虑；
+2. 确定分数，并标出 **P0**（决定分数的因素）、**P1**（清楚的音乐问题）和仅在确有不同价值时才保留的 **P2**（针对该录音的亮点）；
+3. 只保留 P0，以及必要的 P1 / P2，用合并、直接的短分句写成工作记录；
+4. 删除重复、同义、Style 重述、与分数无关的背景，或对最终判断没有新增信息的表达；Style 只在其可听见特征直接构成评分门槛时提及；
+5. 确认压缩后仍支撑分数、保留低于 5 分的限制或 5 分的正向证据，并且五个维度已经在内部完整考虑；
 6. 再输出。
 
-大众性通常合并为：旋律 / Hook 与 rhythm / groove；编配可及性与 timbre / mix 可及性；结构熟悉度与主要限制或支撑理由。音乐性通常合并为：旋律 / Flow 与编配 / 配器；制作 / 混音与 Vocal / performance；情绪 / 表达与主要限制或支撑理由。
+大众性通常保留 1–2 个主要可及性优势和 1–2 个真实门槛，可把 melody / Hook 与 rhythm / groove，或编配与 timbre / mix 合并表达。音乐性通常保留稳定专业结果或基础性弱点模式、最大的制作/编配/表演问题，以及阻止更高一档的原因。
 
-这只是压缩方式，不替代任何一个维度。默认备注不是 audit report，不得逐维展开成五个完整句子。整段备注优先约 110–160 个中文字符，一般不超过约 180 个；若硬性压缩会损失必要证据，优先保留正确性并继续去重。
+这只是压缩方式，不替代任何一个维度。默认备注是简短、直接、高信息密度、问题导向的 QC 工作记录，不是 audit report，也不是完整乐评。整段备注默认目标约 60–100 个中文字符，通常不超过约 120 个；这只是软目标。只有具体的 5/5 正向证据、exact version 的必要说明或特殊作品形式需要时才可更长；正确性优先，但先主动去重。
 
 ### Score-note requirement
 
@@ -281,7 +281,7 @@ credits、制作人、乐器等只有在它们能够解释具体音乐表现时�
 
 ### Positive highlights
 
-默认备注必须在同一 `备注` 字段中包含 1 个具体、针对该录音的正向亮点；只有第二个亮点提供明显不同的价值时才加入。可用 `亮点：……` 短语，但不得新增独立字段。亮点可以来自 Hook、Flow、律动设计、编配、乐器、音色设计、混音或动态、人声控制、情绪推进、和声移动或段落衔接。亮点应概括关系或效果，不得逐字重复正文中的同一事实。
+3/5 和 4/5 的备注可以写亮点，但不是固定动作：只有存在具体、针对该录音且不重复正文的高光时才保留；不得为了格式机械追加 `亮点：`。所有 5/5 必须在对应分数说明中给出具体正向或 standout evidence，但可以直接融入大众性或音乐性的短分句，不必另起 `亮点：`。亮点可以来自 Hook、Flow、律动设计、编配、乐器、音色设计、混音或动态、人声控制、情绪推进、和声移动或段落衔接。不得新增独立字段。
 
 ### Neutral work-note tone
 
@@ -289,7 +289,7 @@ credits、制作人、乐器等只有在它们能够解释具体音乐表现时�
 
 Good:
 
-`大众性3分：反复句与鼓点提供入口，采样层次和音色易读；长篇verse与弱旋律副歌削弱结构回归。音乐性4分：Flow与采样编配连贯，制作平衡、说唱控制稳定；情绪推进清楚，但段落发展较克制。亮点：Flow重音与采样动态的联动。`
+`大众性3分：反复句和鼓点有入口，但长篇verse、弱副歌削弱结构回归；音乐性4分：Flow与采样推进稳定，制作和说唱控制可靠，但段落发展有限。`
 
 Invalid:
 
@@ -297,13 +297,13 @@ Invalid:
 
 备注固定结构：
 
-`备注：大众性X分：……；音乐性X分：……；亮点：……。`
+`备注：大众性X分：……；音乐性X分：……。`
 
 备注中禁止写与评分无关的发行背景、是否单曲、榜单、销量、艺人知名度、文化地位或歌词主题。只有当歌词主题确实直接影响音乐表现且与分数有关时，才可极简提及。
 
-五维必须被覆盖，但不要写成评分表或逐维报告。用合并的短分句呈现各维度最有力、且不重复的具体证据，并保持紧凑可读。好的备注应短但有诊断性，例如：
+五维必须在内部完整检查，但不要把备注写成评分表或逐维报告。用选择性的短分句呈现最有力、且不重复的分数证据，并保持紧凑可读。好的备注应短但有诊断性，例如：
 
-`大众性4分：旋律与Hook清楚、groove稳定，编配和音色易读；段落回归明确，但副歌推进有限。音乐性4分：旋律或Flow与配器自然，制作平衡、表演稳定；情绪完整，但发展幅度不足以到5分。亮点：Hook与段落推进的衔接。`
+`大众性4分：旋律和groove直接，编配、音色与结构易读，但Hook推进有限；音乐性4分：旋律与配器自然，制作和表演稳定，但段落发展不足以到5分。`
 
 不要写成：
 
@@ -336,9 +336,10 @@ For the note:
 - avoid vague praise such as “表现出色”“完成度很高” unless followed by the concrete musical reason;
 - avoid repetitive AI-style transitions;
 - use a neutral, professional, diagnostic work-note tone; avoid emoji, emoticons, memes, jokes, exaggerated exclamations, slang-heavy phrasing, rhetorical questions, and first-person preference;
-- merge related dimensions into high-density short clauses rather than expanding every dimension into a separate sentence;
-- default to one summary-level highlight; add a second only when it contributes distinct value and does not restate the body;
-- keep the compact `大众性X分：……；音乐性X分：……；亮点：……。` structure.
+- merge related dimensions into concise, selective clauses rather than expanding every dimension into a separate sentence;
+- write like a concise QC work note: direct, high-density, and problem-oriented rather than a polished full review;
+- for 3/5 and 4/5, use an inline highlight only when it adds a non-redundant, recording-specific value; for every 5/5, state its concrete affirmative evidence inside the relevant score section;
+- keep the compact `大众性X分：……；音乐性X分：……。` structure. If an inline `亮点：……` is genuinely useful, keep it inside the same note rather than creating a new field.
 
 The humanization pass may improve wording only. Evidence and scoring logic always take priority.
 
@@ -353,7 +354,7 @@ Style：...
 大众性：X/5
 音乐性：X/5
 
-备注：大众性X分：……；音乐性X分：……；亮点：……。
+备注：大众性X分：……；音乐性X分：……。
 ```
 
 不得增加 `Track`、`Label`、`Released`、`Length`、`Comments`、`Sound`、`Listening Era` 或其他字段。
@@ -373,7 +374,7 @@ Style：East Coast Rap / Hardcore Hip-Hop / Soul
 大众性：3/5
 音乐性：5/5
 
-备注：大众性3分：反复句和鼓点提供入口，采样编排与音色易读；长篇verse、戏剧化混音和弱副歌削弱结构回归。音乐性5分：Flow与采样编配推进自然，制作动态、说唱控制清晰；戏剧张力随段落累积并形成统一表达。亮点：Flow重音与采样动态的联动。
+备注：大众性3分：反复句和鼓点有入口，但长篇verse、弱副歌削弱结构回归；音乐性5分：Flow与采样编配推进鲜明，动态、说唱控制和戏剧张力高度统一。
 ```
 
 ### Joji — Die For You
@@ -385,7 +386,7 @@ Style：Alternative R&B / Downtempo / Alt-Pop
 大众性：5/5
 音乐性：4/5
 
-备注：大众性5分：旋律、副歌和慢速groove易记直接，编配、人声与空间化音色易接受；结构回归清楚，整体无实质性可及性门槛。音乐性4分：旋律与副歌编配贴合，空间化制作平衡、人声控制稳定；情绪氛围连贯，但音色与段落发展仍较克制。亮点：副歌Hook与空间感的呼应。
+备注：大众性5分：旋律、副歌和groove直接，编配、人声与音色易接近，结构回归清楚；音乐性4分：旋律与副歌编配贴合，制作和人声控制稳定，但音色与段落发展较克制。
 ```
 
 ### Kali Uchis — Killer
@@ -397,5 +398,5 @@ Style：Soul / Retro Soul / Contemporary R&B
 大众性：4/5
 音乐性：4/5
 
-备注：大众性4分：旋律、演唱和慢速Soul groove易接受，丰满配器与温暖音色易读；传统Ballad结构清楚，但复古慢速取向略收窄受众。音乐性4分：旋律与唱腔贴合，Soul配器连贯，制作平衡、人声控制稳定；情绪统一，但段落发展保持传统克制。亮点：唱腔与Soul配器的自然融合。
+备注：大众性4分：旋律、演唱和慢速groove易接近，传统结构清楚，但复古慢速取向收窄受众；音乐性4分：旋律与温暖配器自然，制作和人声控制稳定，但段落发展较克制。
 ```

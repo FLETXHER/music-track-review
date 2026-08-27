@@ -166,14 +166,14 @@
         "id": "note-five-dimension-coverage-mainstream",
         "case_ids": [1, 2, 3, 4, 5, 6, 7, 8],
         "checks": [
-          "The Mainstream Appeal portion of the note makes a concrete judgement about melody/hook, rhythm/groove, arrangement accessibility, timbre/mix accessibility, and structural familiarity without turning them into a five-subscore table."
+          "The Mainstream Appeal score is based on an internal concrete judgement about melody/hook, rhythm/groove, arrangement accessibility, timbre/mix accessibility, and structural familiarity; the compact note then retains only score-moving evidence without a five-subscore table or dimension headings."
         ]
       },
       {
         "id": "note-five-dimension-coverage-musicality",
         "case_ids": [1, 2, 3, 4, 5, 6, 7, 8],
         "checks": [
-          "The Musicality portion of the note makes a concrete judgement about melody/flow, arrangement/instrumentation, production/mix, vocal/performance, and emotion/expression, with form-appropriate handling for rap, spoken word, instrumental, or similar recordings."
+          "The Musicality score is based on an internal concrete judgement about melody/flow, arrangement/instrumentation, production/mix, vocal/performance, and emotion/expression, with form-appropriate handling for rap, spoken word, instrumental, or similar recordings; the compact note then retains only score-moving evidence."
         ]
       },
       {
@@ -187,17 +187,19 @@
         "id": "positive-highlights",
         "case_ids": [1, 2, 3, 4, 5, 6, 7, 8],
         "checks": [
-          "The compact note includes one concrete, recording-specific positive highlight inside the existing 备注 field by default; a second is used only when it adds distinct value and does not restate the body."
+          "For 3/5 and 4/5, an inline positive highlight is optional and appears only when it adds a concrete, recording-specific fact that does not repeat the score explanation.",
+          "Every 5/5 includes concrete affirmative or standout evidence inside the relevant score section; no separate highlight clause or output field is required."
         ]
       },
       {
         "id": "note-compression",
         "case_ids": [1, 2, 3, 4, 5, 6, 7, 8],
         "checks": [
-          "Internally checks all five relevant dimensions for each score while rendering each score section as two or three high-density grouped clauses rather than a dimension-by-dimension audit report.",
-          "Removes clearly repeated or synonymous evidence while keeping score supports, score limits, and five-dimension coverage discernible.",
-          "Keeps Mainstream Appeal and Musicality compact, and uses a summary-level highlight that does not merely repeat the body.",
-          "Targets roughly 110–160 Chinese characters for the full note and normally stays below 180 unless more wording is necessary to preserve accurate evidence."
+          "Checks all five relevant dimensions internally for each score, then writes selectively as a terse, direct, high-information-density diagnostic QC note rather than a dimension-by-dimension audit report or full music review.",
+          "Retains score-moving support and limits: Mainstream Appeal normally keeps central accessibility strengths and real barriers, while Musicality keeps the stable-professional or foundational-weakness pattern and the issue that blocks the next band.",
+          "Removes repeated or synonymous evidence, repeated Style labels unless their audible character directly creates a scoring barrier, and redundant inline highlights.",
+          "Targets roughly 60–100 Chinese characters for the full note and normally stays at or below about 120; concrete 5/5 affirmative evidence, exact-version reasoning, or special forms may require more wording.",
+          "Does not let shortening remove score consistency, a sub-5 limitation, 5/5 affirmative evidence, or turn a stable professional Musicality 4/5 result into 3/5 merely for minor limits."
         ]
       },
       {

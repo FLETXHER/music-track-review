@@ -117,34 +117,31 @@ A score note is part of the scoring decision, not merely a description of the tr
 
 ### Five-dimension coverage
 
-The default note must cover all five relevant dimensions for each numeric score. This is a content-coverage gate, not a five-subscore table, an arithmetic formula, or a reason to count minor limitations mechanically.
+Every numeric score must be based on an internal check of all five relevant dimensions. This is a hard content-coverage gate for the decision, not a five-subscore table, an arithmetic formula, or a reason to count minor limitations mechanically. The final note does not need to restate each dimension separately.
 
 - **Mainstream Appeal** — make a concrete judgement about melody / hook, rhythm / groove, arrangement accessibility, timbre / mix accessibility, and structural familiarity.
 - **Musicality** — make a concrete judgement about melody / flow, arrangement / instrumentation, production / mix, vocal / performance, and emotion / expression.
 - For rap, spoken word, instrumental, instrumental-forward electronic music, and similar forms, handle the vocal / performance dimension as form-appropriate performance or execution. Do not fabricate conventional vocal evidence.
 
-Use compact natural-language clauses rather than printed dimension headings, pass/fail labels, or internal scores. Each score section must show what supports the selected band and, where a higher band is possible, what limits it.
+Use compact natural-language clauses rather than printed dimension headings, pass/fail labels, or internal scores. Each score section must show the score-moving support and, where a higher band is possible, what limits it.
 
 ### Note compression gate
 
-**Internal coverage = exhaustive; final wording = compressed.**
+**Check comprehensively → write selectively and compactly.**
 
 Before final output:
 
 1. check all five relevant dimensions internally;
-2. choose the score and its supporting and limiting evidence;
-3. merge related dimensions into high-density short clauses;
-4. delete repeated, synonymous, or score-irrelevant wording;
-5. confirm that all five dimensions remain discernible after compression.
+2. choose the score and identify **P0** score-changing factors, **P1** clear musical issues, and only then a **P2** recording-specific highlight if it adds distinct value;
+3. write selectively, using merged, direct, high-density QC-style short clauses rather than a full review;
+4. delete repeated, synonymous, Style-restating, or score-irrelevant wording; repeat a Style only when its audible character directly creates a scoring barrier;
+5. confirm that the concise note supports the score, retains sub-5 limits or 5/5 affirmative evidence as appropriate, and reflects a complete internal five-dimension check.
 
-Use two or three information blocks for each score section whenever the evidence allows:
+For **Mainstream Appeal**, normally retain one or two central accessibility strengths and one or two real barriers, using merged phrases where useful. For **Musicality**, retain the stable professional result or foundational-weakness pattern, the largest production/arrangement/performance issue, and what blocks the next band.
 
-- **Mainstream Appeal** — usually merge melody / hook with rhythm / groove; arrangement accessibility with timbre / mix accessibility; then structural familiarity with the principal accessibility limit or supporting reason.
-- **Musicality** — usually merge melody / flow with arrangement / instrumentation; production / mix with vocal / performance; then emotion / expression with the principal limit or supporting reason.
+These are compression patterns, not a replacement for any dimension. The default note is a concise diagnostic QC work record, not an audit report or a full music review, and must not expand into one full sentence per dimension.
 
-These are compression patterns, not a replacement for any dimension. The default note is not an audit report and must not expand into one full sentence per dimension.
-
-Aim for roughly 110–160 Chinese characters for the whole note and normally stay below 180. This is a compression target, not a reason to drop necessary five-dimension evidence.
+Aim for roughly 60–100 Chinese characters for the whole note and normally stay at or below about 120. This is a soft target: concrete 5/5 affirmative evidence, exact-version reasoning, or a special form may require more wording. Preserve correctness, then deduplicate.
 
 ### Score-to-note consistency check
 
@@ -159,9 +156,9 @@ Do not leave a note that describes several broad-listener barriers while claimin
 
 ### Positive highlights and tone
 
-Include one concrete, recording-specific positive highlight inside the same note by default. Add a second only when it contributes distinct value. A highlight may concern a hook, flow, rhythmic design, arrangement, instrumentation, sound design, mix or dynamics, vocal control, emotional progression, harmonic movement, or a section transition. It should summarize a relationship or payoff rather than repeat the body verbatim. Do not create a standalone highlight field.
+For 3/5 and 4/5, a concrete, recording-specific positive highlight is optional. Include it only when it adds a non-redundant fact beyond the score explanation; do not mechanically append `亮点：`. Every 5/5 must include concrete affirmative or standout evidence inside the relevant score section, but it does not need a separate `亮点：` clause. A highlight may concern a hook, flow, rhythmic design, arrangement, instrumentation, sound design, mix or dynamics, vocal control, emotional progression, harmonic movement, or a section transition. Do not create a standalone highlight field.
 
-The note must use a neutral, professional, diagnostic work-note tone. Do not use emoji, emoticons, memes, jokes, exaggerated exclamations, slang-heavy or overly personalized language, rhetorical questions, or first-person preference. Vague praise such as “很好听”, “很高级”, “很炸”, “很有感觉”, or “完成度高” is not a highlight unless immediately tied to a concrete musical reason.
+The note must use a neutral, professional, diagnostic work-note tone: short, direct, high-information-density, and problem-oriented. Do not use emoji, emoticons, memes, jokes, exaggerated exclamations, slang-heavy or overly personalized language, rhetorical questions, or first-person preference. Prefer professional wording such as “冲击力不足” or “混音失衡” over informal shorthand. Vague praise such as “很好听”, “很高级”, “很炸”, “很有感觉”, or “完成度高” is not a highlight unless immediately tied to a concrete musical reason.
 
 - **5/5** — state concrete affirmative evidence for the top band and why 4/5 is not enough; do not use “没有明显问题” as the reason.
 - **4/5** — state the main strengths and at least one specific reason it is not 5/5. A minor limitation is sufficient here and does not make the track a 3/5.
@@ -174,7 +171,7 @@ A note that only describes what the track contains is invalid. It must explain w
 Do not substitute release background, single status, artist fame, charts, sales, awards, cultural status, album background, or credits themselves for a deduction reason. Credits, producers, or instruments may appear only when they explain a specific musical result.
 
 Good:
-- `大众性3分：反复句与鼓点提供入口，采样层次和音色易读；长篇verse与弱旋律副歌削弱结构回归。音乐性4分：Flow与采样编配连贯，制作平衡、说唱控制稳定；情绪推进清楚，但段落发展较克制。亮点：Flow重音与采样动态的联动。`
+- `大众性3分：反复句和鼓点有入口，但长篇verse、弱副歌削弱结构回归；音乐性4分：Flow与采样推进稳定，制作和说唱控制可靠，但段落发展有限。`
 
 Invalid:
 - `大众性3分：歌曲使用Soul采样，由某制作人制作；音乐性4分：歌手表现很好。`
@@ -184,9 +181,9 @@ Invalid:
 The note should be short but diagnostic.
 
 Good:
-- `大众性4分：旋律与Hook清楚、groove稳定，编配和音色易读；段落回归明确，但副歌推进有限。音乐性4分：旋律或Flow与配器自然，制作平衡、表演稳定；情绪完整，但发展幅度不足以到5分。亮点：Hook与段落推进的衔接。`
+- `大众性4分：旋律和groove直接，编配、音色与结构易读，但Hook推进有限；音乐性4分：旋律与编配自然，制作和表演稳定，但段落发展不足以到5分。`
 
 Weak:
 - `大众性一般；音乐性不错。`
 
-Cover every relevant dimension through grouped concise clauses. Do not turn the note into a scorecard or a dimension-by-dimension report; use the strongest non-redundant evidence and keep the result readable.
+Check every relevant dimension internally, then keep only the strongest non-redundant score evidence in the final note. Do not turn it into a scorecard, a dimension-by-dimension report, or a polished long review.

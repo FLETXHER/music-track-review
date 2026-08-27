@@ -64,7 +64,7 @@ Style：...
 大众性：X/5
 音乐性：X/5
 
-备注：大众性X分：……；音乐性X分：……；亮点：……。
+备注：大众性X分：……；音乐性X分：……。
 ```
 
 ### Natural-language pass
@@ -88,35 +88,39 @@ For the note:
 - avoid vague praise such as “表现出色”“完成度很高” unless followed by the concrete musical reason;
 - avoid repetitive AI-style transitions;
 - use a neutral, professional, diagnostic work-note tone; avoid emoji, emoticons, memes, slang-heavy phrasing, exaggerated exclamations, and social-post language;
-- merge related evidence into high-density short clauses instead of expanding every dimension into a separate sentence;
-- default to one summary-level highlight; add a second only when it contributes distinct value and does not restate the body;
-- keep the compact `大众性X分：……；音乐性X分：……；亮点：……。` structure.
+- merge related evidence into concise, selective clauses instead of expanding every dimension into a separate sentence;
+- write like a concise QC work note: direct, high-density, and problem-oriented rather than a polished full review;
+- for 3/5 and 4/5, use an inline highlight only when it adds a non-redundant, recording-specific value; for every 5/5, state its concrete affirmative evidence inside the relevant score section;
+- keep the compact `大众性X分：……；音乐性X分：……。` structure. If an inline `亮点：……` is genuinely useful, keep it inside the same note rather than creating a new field.
 
 The humanization pass may improve wording only. Evidence and scoring logic always take priority.
 
 ### Note compression gate
 
-**Internal coverage = exhaustive; final wording = compressed.**
+**Check comprehensively → write selectively and compactly.**
 
-1. Check all five relevant dimensions internally, then select the score and its supporting and limiting evidence.
-2. Merge complementary dimensions into two or three high-density clauses for each score; do not write a dimension-by-dimension audit report.
-3. Remove repeated, synonymous, or score-irrelevant wording.
-4. Confirm that the compressed note still makes all five dimensions discernible and still supports the selected score.
+1. Check all five relevant dimensions internally, then identify the score-changing evidence: **P0** factors that determine the score, **P1** clear musical issues, and only then a **P2** recording-specific highlight if it adds distinct value.
+2. Select the score and retain only the evidence needed to show why it belongs in that band and, where applicable, what blocks the next higher band.
+3. Merge related evidence into direct, high-density QC-style short clauses; do not write a dimension-by-dimension audit report or a full music review.
+4. Remove repeated, synonymous, score-irrelevant wording, repeated Style labels, and background that does not explain the current sound. Mention a Style only when its audible character directly creates a scoring barrier.
+5. Confirm that all five dimensions were considered internally, the concise note supports the selected score, every sub-5 limitation remains explicit, and every 5/5 retains concrete affirmative evidence.
 
-Aim for roughly 110–160 Chinese characters for the whole note and normally stay below 180. This is a compression target, not permission to omit necessary evidence.
+For Mainstream Appeal, normally retain one or two central accessibility strengths and one or two real barriers. For Musicality, retain the stable professional result or foundational-weakness pattern, the largest production/arrangement/performance issue, and what blocks the next band.
+
+Aim for roughly 60–100 Chinese characters for the whole note and normally stay at or below about 120. This is a soft target: go longer only when concrete 5/5 affirmative evidence, exact-version reasoning, or a special form needs more wording. Correctness wins, but deduplicate first.
 
 ## Output rules
 
 - Usually give 1 Genre label and 1–3 Style labels; add a second Genre only when the recording genuinely has two substantial broad-family identities.
 - Prefer dominant styles; omit trace influences that are not important to the track's identity.
 - Before final output, check whether an established Style that is clearly material to the recording's identity has been omitted; add it only when actual musical fit supports it, and do not force a generic duplicate or a third label.
-- Keep the default note compact and concrete: the final wording is not an audit report.
-- For each numeric score, cover all five relevant dimensions as an exhaustive internal check, then merge related evidence into two or three concise natural-language clauses. For instrumental, rap, spoken-word, or similar recordings, assess performance/execution appropriately instead of fabricating conventional vocal evidence.
+- Keep the default note compact and concrete: it is a concise QC work note, not an audit report.
+- For each numeric score, assess all five relevant dimensions as an exhaustive internal check, then write selectively using only score-moving evidence. For instrumental, rap, spoken-word, or similar recordings, assess performance/execution appropriately instead of fabricating conventional vocal evidence.
 - This is a coverage requirement, not a five-subscore table, an arithmetic formula, or a reason to count minor limitations as deductions.
 - Explain *why points are lost or earned* using audible/researched features: hook strength, flow, rhythmic accessibility, arrangement development, production texture, performance, dynamics, emotional progression, and structure.
 - For every score below 5/5, the note must name at least one concrete limitation that prevents the next higher score. A note that only describes the track is invalid.
 - For every 5/5, the note must name concrete affirmative evidence that supports the top band; “没有明显问题” alone is invalid.
-- Include one concrete, recording-specific positive highlight inside the same `备注` field by default; add a second only when it adds distinct value. Do not repeat the body verbatim or add a standalone highlight field.
+- For 3/5 and 4/5, a concrete positive highlight is optional; include it only when it adds non-redundant value. Every 5/5 must state concrete affirmative or standout evidence inside the relevant score section. Do not create a standalone highlight field.
 - Before output, run a score-to-note consistency check: the documented strengths, barriers, and foundational weaknesses must support the selected number. Revise the note or score if they conflict.
 - Do not print the research process, source list, or a five-dimension scorecard unless the user asks.
 - In the default compact review, do not include artist/creator biography, album or release story, producer/remixer identity, charts, sales, awards, historical context, or style-history discussion. Use research context only to resolve and understand the current recording.
