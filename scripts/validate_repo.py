@@ -14,9 +14,13 @@ REQUIRED = [
     "references/scoring-guide.md",
     "references/web-research.md",
     "references/style-research-policy.md",
+    "references/public-style-reference.md",
+    "references/public-style-seed-v0.1.json",
+    "references/public-style-signatures.md",
     "references/genre-family-guide.md",
     "references/examples.md",
     "evals/evals.json",
+    "scripts/validate_public_style_reference.py",
 ]
 
 RAW_MATERIAL_EXTENSIONS = {

@@ -1,0 +1,2087 @@
+{
+  "name": "public_style_reference_p1_seed",
+  "version": "0.1",
+  "created_on": "2026-10-20",
+  "origin": "Project-provided selection; every name verified against the pinned public source",
+  "upstream_catalog_url": "https://raw.githubusercontent.com/hastefuI/discogs-dataset-genres-styles/a8417a2107b621fe9a1fae91edb544dc82b56b05/dist/styles.json",
+  "upstream_description": "https://github.com/hastefuI/discogs-dataset-genres-styles",
+  "upstream_license_claim": "Upstream README declares dist/ data CC0 1.0; see public-style-reference.md",
+  "scope_warning": "This is a public reference, NOT a whitelist for any employer, and NOT a coverage estimate.",
+  "styles": [
+    {
+      "name": "Abstract",
+      "family_hint": "Hip-hop / rap",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Acid House",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Acid Jazz",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Acid Rock",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Acoustic",
+      "family_hint": "context / form",
+      "role": "form",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "African",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Afro-Cuban",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Afro-Cuban Jazz",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Afrobeat",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Aleatoric",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Alt-Pop",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Alternative Metal",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Alternative Rock",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Amapiano",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Ambient",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Ambient House",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Anarcho-Punk",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Anatolian Rock",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Anison",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Antifolk",
+      "family_hint": "Blues / folk / country",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Appalachian Music",
+      "family_hint": "Blues / folk / country",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Arabic Pop",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Arena Rock",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Art Rock",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Atmospheric Black Metal",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Atonal",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Avant-garde Jazz",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Bachata",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Bakersfield Sound",
+      "family_hint": "Blues / folk / country",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Balearic",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Ballad",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Baroque",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Baroque Pop",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Bass Music",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Bassline",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Bhangra",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Big Band",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Big Beat",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Black Metal",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Blackgaze",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Bleep",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Bluegrass",
+      "family_hint": "Blues / folk / country",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Blues Rock",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Bolero",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Boom Bap",
+      "family_hint": "Hip-hop / rap",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Bop",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Bossa Nova",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Bounce",
+      "family_hint": "Hip-hop / rap",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Breakbeat",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Breakcore",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Breaks",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Britpop",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Broken Beat",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Brutal Death Metal",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Cajun",
+      "family_hint": "Blues / folk / country",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Calypso",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Cantopop",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Chamber Music",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Chanson",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Chicago Blues",
+      "family_hint": "Blues / folk / country",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Chillwave",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Chiptune",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Choral",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "City Pop",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Classic Rock",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Classical",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Cloud Rap",
+      "family_hint": "Hip-hop / rap",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Coldwave",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Concerto",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Conscious",
+      "family_hint": "Hip-hop / rap",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Contemporary",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Contemporary Jazz",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Contemporary R&B",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Cool Jazz",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Country",
+      "family_hint": "Blues / folk / country",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Country Blues",
+      "family_hint": "Blues / folk / country",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Country Rock",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Crunk",
+      "family_hint": "Hip-hop / rap",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Crust",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Cumbia",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Dance-pop",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Dancehall",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Dark Ambient",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Dark Electro",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Death Metal",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Deathcore",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Deathrock",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Deep House",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Deep Techno",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Delta Blues",
+      "family_hint": "Blues / folk / country",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Desert Blues",
+      "family_hint": "Blues / folk / country",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Disco",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Dixieland",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Donk",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Doom Metal",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Downtempo",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Dream Pop",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Drill",
+      "family_hint": "Hip-hop / rap",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Drone",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Drum n Bass",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Dub",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Dub Techno",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Dubstep",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "East Coast Blues",
+      "family_hint": "Blues / folk / country",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Easy Listening",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "EBM",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Electric Blues",
+      "family_hint": "Blues / folk / country",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Electro",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Electro House",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Electro Swing",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Electroacoustic",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Electroclash",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Emo",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Enka",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Euro House",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Euro Trance",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Eurobeat",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Eurodance",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Europop",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Experimental",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Fado",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Field Recording",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "format",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Flamenco",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Folk",
+      "family_hint": "Blues / folk / country",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Folk Metal",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Folk Rock",
+      "family_hint": "Blues / folk / country",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Footwork",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Free Jazz",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Freetekno",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "French House",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Funk",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Funk Metal",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Funkot",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Fusion",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Future Bass",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Future House",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Future Pop",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "G-Funk",
+      "family_hint": "Hip-hop / rap",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Gabber",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Gamelan",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Gangsta",
+      "family_hint": "Hip-hop / rap",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Garage House",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Garage Rock",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Ghetto House",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Ghettotech",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Glam",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Glitch",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Glitch Hop",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Go-Go",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Goa Trance",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Gospel",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Goth Rock",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Gothic Metal",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Grime",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Grindcore",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Groove Metal",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Grunge",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Hard Bop",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Hard House",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Hard Rock",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Hard Techno",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Hard Trance",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Hardcore",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Hardcore Hip-Hop",
+      "family_hint": "Hip-hop / rap",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Hardstyle",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Heavy Metal",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Highlife",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Hip Hop",
+      "family_hint": "Hip-hop / rap",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Hip-House",
+      "family_hint": "Hip-hop / rap",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Hokkien Pop",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Honky Tonk",
+      "family_hint": "Blues / folk / country",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Horrorcore",
+      "family_hint": "Hip-hop / rap",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "House",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Hyper Techno",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Hyperpop",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Hyphy",
+      "family_hint": "Hip-hop / rap",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "IDM",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Illbient",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Impressionist",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Incidental Music",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "context",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Indie Pop",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Indie Rock",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Industrial",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Industrial Metal",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Instrumental",
+      "family_hint": "context / form",
+      "role": "form",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Italo House",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Italo-Disco",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "J-Core",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "J-pop",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "J-Rock",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Jangle Pop",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Jazz-Funk",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Jazz-Rock",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Jazzy Hip-Hop",
+      "family_hint": "Hip-hop / rap",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Jersey Club",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Juke",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Jungle",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "K-pop",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Keyboard",
+      "family_hint": "context / form",
+      "role": "instrument",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Kizomba",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Krautrock",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Latin Jazz",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Latin Pop",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Leftfield",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Lo-Fi",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Louisiana Blues",
+      "family_hint": "Blues / folk / country",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Lounge",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Makina",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Mambo",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Mandopop",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Math Rock",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Mathcore",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Melodic Death Metal",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Melodic Hardcore",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Memphis Rap",
+      "family_hint": "Hip-hop / rap",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Metalcore",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Miami Bass",
+      "family_hint": "Hip-hop / rap",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Microhouse",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Midwest Emo",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Min'yō",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Minimal",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Minimal Techno",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Minimalism",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Modern Classical",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Moombahton",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "MPB",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Musique Concrète",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Neo Soul",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Neo-Classical",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Neofolk",
+      "family_hint": "Blues / folk / country",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Nerdcore Techno",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "New Age",
+      "family_hint": "Blues / folk / country",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "New Beat",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "New Jack Swing",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "New Wave",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "No Wave",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Noise Rock",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Norteño",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Nu Metal",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Nu-Disco",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Oi",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Opera",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Oratorio",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Orchestra",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "ensemble",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "P.Funk",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Phonk",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Piano",
+      "family_hint": "context / form",
+      "role": "instrument",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Piano Blues",
+      "family_hint": "Blues / folk / country",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Piedmont Blues",
+      "family_hint": "Blues / folk / country",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Pop Punk",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Pop Rap",
+      "family_hint": "Hip-hop / rap",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Pop Rock",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Post Bop",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Post Rock",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Post-Grunge",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Post-Hardcore",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Post-Metal",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Post-Punk",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Power Metal",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Power Pop",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Prog Rock",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Program Music",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Progressive House",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Progressive Trance",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Psy-Trance",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Psychedelic Rock",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Punk",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Qawwali",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Reggae",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Reggae-Pop",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Reggaeton",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Rhythm & Blues",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Rock & Roll",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Rockabilly",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Rocksteady",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Roots Reggae",
+      "family_hint": "Blues / folk / country",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Salsa",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Samba",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Schranz",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Score",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "context",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Screamo",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Screw",
+      "family_hint": "Hip-hop / rap",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Shoegaze",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Singeli",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Ska",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Skweee",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Slowcore",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Sludge Metal",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Smooth Jazz",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Snap",
+      "family_hint": "Hip-hop / rap",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Soca",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Soft Rock",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Solo",
+      "family_hint": "context / form",
+      "role": "form",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Soukous",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Soul",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Soul-Jazz",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Sound Collage",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "technique",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Soundtrack",
+      "family_hint": "context / form",
+      "role": "context",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Southern Rock",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Space Rock",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Spectralism",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Speed Garage",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Speed Metal",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Speedcore",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Spiritual Jazz",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Stoner Rock",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "String Ensemble",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "ensemble",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Sunshine Pop",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Surf",
+      "family_hint": "Rock / alternative",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Swing",
+      "family_hint": "Jazz / funk / soul",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Symphonic Metal",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Symphony",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Synth-pop",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Synthpunk",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Synthwave",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Tango",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Tech House",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Tech Trance",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Techno",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Texas Blues",
+      "family_hint": "Blues / folk / country",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Theme",
+      "family_hint": "context / form",
+      "role": "context",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Thrash",
+      "family_hint": "Metal / hardcore / punk",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Thug Rap",
+      "family_hint": "Hip-hop / rap",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Tone Poem",
+      "family_hint": "Classical / scoring / avant-garde",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Trance",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Trap",
+      "family_hint": "Hip-hop / rap",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Tribal House",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Trip Hop",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Tropical House",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Turntablism",
+      "family_hint": "Hip-hop / rap",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "UK Funky",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "UK Garage",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "V-pop",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Vaporwave",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Video Game Music",
+      "family_hint": "context / form",
+      "role": "context",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Vocal",
+      "family_hint": "context / form",
+      "role": "form",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Western Swing",
+      "family_hint": "Blues / folk / country",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Witch House",
+      "family_hint": "Electronic / club",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Zhongguo Feng",
+      "family_hint": "Pop / R&B",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Zouk",
+      "family_hint": "Latin / global / reggae",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    },
+    {
+      "name": "Zydeco",
+      "family_hint": "Blues / folk / country",
+      "role": "primary_candidate",
+      "source": "Discogs public-dump derived styles"
+    }
+  ],
+  "normalization_aliases": {
+    "synthpop": "Synth-pop",
+    "synth pop": "Synth-pop",
+    "dance pop": "Dance-pop",
+    "dancepop": "Dance-pop",
+    "hip-hop": "Hip Hop",
+    "hiphop": "Hip Hop",
+    "boom-bap": "Boom Bap",
+    "boom bap": "Boom Bap",
+    "drum and bass": "Drum n Bass",
+    "drum & bass": "Drum n Bass",
+    "dnb": "Drum n Bass",
+    "alt pop": "Alt-Pop",
+    "alternative pop": "Alt-Pop",
+    "uk garage": "UK Garage",
+    "jersey club": "Jersey Club",
+    "hyper pop": "Hyperpop",
+    "lofi": "Lo-Fi",
+    "lo-fi": "Lo-Fi",
+    "hard techno": "Hard Techno",
+    "j pop": "J-pop",
+    "k pop": "K-pop",
+    "citypop": "City Pop",
+    "g funk": "G-Funk",
+    "g-funk": "G-Funk"
+  },
+  "source_notes": "Family and role annotations are project heuristics, not official classifications or evidence about any recording.",
+  "upstream_commit": "a8417a2107b621fe9a1fae91edb544dc82b56b05",
+  "upstream_source_sha256": "b5ca2f3d45e7d76c8faab18a49427875da1a18e1fbb4cf1f37a1e5249a577400"
+}

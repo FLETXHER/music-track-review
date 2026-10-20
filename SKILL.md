@@ -24,6 +24,7 @@ Turn a minimal input such as `Artist - Track` into a compact, repeatable music r
 3. **Classify Style and run the Primary Style Validation Gate.**
    - Read `references/style-research-policy.md` for the full gate and optional authorized catalog mapping. Use `references/genre-family-guide.md` only for internal orientation.
    - Identify the dominant musical identity from the exact recording and credible evidence before choosing labels. At least one Style must describe a supported dominant musical style; `Instrumental`, `Acoustic`, `Theme`, `Soundtrack`, or `Video Game Music` alone do not complete classification.
+   - When a public candidate spelling or style distinction needs checking, consult `references/public-style-reference.md`, then its seed or listening questions as needed. These are heuristic candidates, not track evidence, a whitelist, or the authorized catalog used for out-of-catalog notes.
    - Keep genuine instrumental or soundtrack attributes when relevant, but check every label for musical fit and material importance. Never force three Styles or invent a compound term.
    - If an explicitly authorized catalog is accessible in this session, map accurate terms to it; otherwise use established public vocabulary. Never invent catalog membership or choose a wrong label to satisfy a catalog.
    - If no credible dominant style can be identified, state what needs verification rather than issuing a completed review.

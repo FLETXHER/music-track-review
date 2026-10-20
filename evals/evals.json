@@ -251,6 +251,26 @@
       }
     ],
     "candidate_case_policy": "These six cases have no fixed Style labels or scores. Resolve version identity and review model output against the gate; no generation was run in this release.",
+    "p1_public_reference_regression": {
+      "status": "NOT RUN",
+      "case_ids": ["style-01", "style-02", "style-03", "style-04", "style-05", "style-06"],
+      "protocol": [
+        "Resolve the exact recording or version for each registered case before judging Style.",
+        "Record musical and independent web evidence separately from any names suggested by the public reference.",
+        "Review accepted and rejected candidate names, primary-style fit, material secondary labels, and whether a form-only answer was avoided.",
+        "Check that missing names do not force false mappings or private-catalog out-of-catalog notes; preserve the five-field contract and existing scoring rubric."
+      ],
+      "review_focus_by_case": {
+        "style-01": "Check soundtrack context alongside a supported musical identity, not form-only tags.",
+        "style-02": "Resolve the credited version and distinguish soundtrack context from audible style.",
+        "style-03": "Check exact recording and do not infer a style solely from screen use.",
+        "style-04": "Do not select rock substyles by artist association or candidate-list presence alone.",
+        "style-05": "Do not infer Experimental or another substyle solely from unusual sound design.",
+        "style-06": "Do not add extra Pop or R&B labels merely to fill Style slots."
+      },
+      "fixed_style_or_score_gold": false,
+      "result_claim": "Preparation only; no live web research, listening, or model-generation regression has been performed."
+    },
     "v08_acceptance_criteria": [
       { "id": "P0-01", "check": "No Genre field in default output.", "verification_mode": "static_contract_check" },
       { "id": "P0-02", "check": "Instrumental or Acoustic alone fails the dominant musical style gate.", "verification_mode": "human_review_of_generated_output" },

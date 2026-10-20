@@ -153,7 +153,7 @@ When an authorized catalog was actually checked and a material established style
 - Always research the **exact track/recording/version** on the web before classifying or scoring it.
 - Use public music sources as evidence. Do not answer from model memory alone.
 - Identify the supported dominant musical style first. Run the **Primary Style Validation Gate** so form or soundtrack labels never stand alone, and do not fill Style slots with weak matches.
-- Map accurate terms to a user-authorized catalog when available in the session. This public repository contains no such catalog; without one, use established, publicly checkable terms and do not claim strict catalog matching.
+- Map accurate terms to a separate user-authorized catalog when available in the session. This repository's [public Style reference](references/public-style-reference.md) offers candidate names only: it is neither track evidence nor an internal catalog, and its absence of a term cannot trigger an out-of-catalog note. Without an authorized catalog, use established, publicly checkable terms and do not claim strict catalog matching.
 - Do not create temporary compound labels. Use broad genre families only as internal orientation; the output has no Genre field.
 - Score **Mainstream Appeal** and **Musicality** independently.
 - Check all five relevant dimensions internally for each score, then write only the score-moving evidence; do not turn the final note into a dimension-by-dimension report.
@@ -186,10 +186,14 @@ Not included by default:
 - `references/scoring-guide.md` — scoring dimensions and calibration
 - `references/web-research.md` — evidence and source-selection policy
 - `references/style-research-policy.md` — how to classify style without overfitting to one database
+- `references/public-style-reference.md` — source, license, and use limits for the optional public candidate reference
+- `references/public-style-seed-v0.1.json` — public-source candidate names with heuristic hints, not song evidence
+- `references/public-style-signatures.md` — optional listening questions for style distinctions
 - `references/genre-family-guide.md` — broad genre-family orientation
 - `references/examples.md` — calibration examples
 - `evals/evals.json` — behavioral eval cases
 - `scripts/validate_repo.py` — lightweight structure and disclosure check
+- `scripts/validate_public_style_reference.py` — offline seed and structural-gate checks, not music regression
 
 
 ## Status

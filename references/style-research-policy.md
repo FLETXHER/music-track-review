@@ -22,6 +22,12 @@ Style classification starts with the recording's actual sound and credible publi
 - A weak / trace influence that is not materially part of the track's identity should normally be omitted.
 - If fine-grained evidence is weak or conflicting, broaden the label instead of preserving a precise but unstable candidate.
 
+## Optional public candidate reference
+
+When a candidate name or distinction needs checking, read `public-style-reference.md` before consulting `public-style-seed-v0.1.json` or `public-style-signatures.md`. The seed contains public-source names with project-supplied family, role, and alias hints. Its presence can help normalize wording, but no entry proves that a style fits a particular recording. `primary_candidate` is not an automatic pass through the gate; confirm the sound and independent evidence first.
+
+The seed is incomplete by design and is not a hard whitelist. A supported established Style remains usable when absent from it. The public seed is also **not** the authorized catalog in the section below: a missing seed term is never, by itself, an out-of-catalog finding for `备注`.
+
 ## Primary Style Validation Gate
 
 Run this gate before every completed review. It is a classification check, not a request to fill all three Style slots.
@@ -35,7 +41,7 @@ If no credible dominant style can be identified, do not invent one or present a 
 
 ## Optional authorized catalog mapping
 
-The public repository does not contain a Style catalog or a fixed Style count. Use a catalog only when the user explicitly provides or authorizes access to its current version in the running environment. Treat it as read-only session input; never copy private rows, explanations, priority data, source files, or private links into this repository or public tests.
+The public repository contains only an optional public candidate reference, not an internal-workflow Style catalog or a fixed authorized-catalog count. Use a separate catalog for strict mapping only when the user explicitly provides or authorizes access to its current version in the running environment. Treat it as read-only session input; never copy private rows, explanations, priority data, source files, or private links into this repository or public tests.
 
 1. Check that Style names are present and unique; inspect provided categories and aliases for blanks, duplicates, and ambiguous near matches. Do not silently choose between conflicting entries.
 2. Identify the true musical style *before* mapping. Match to an exact catalog name or a documented synonym when the recording fits; use a broader catalog term only if it remains musically accurate. Category and alias metadata help disambiguate; they cannot override actual sound.
