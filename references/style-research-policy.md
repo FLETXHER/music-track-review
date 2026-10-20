@@ -2,9 +2,7 @@
 
 ## Principle
 
-Style classification is **web-led and open-vocabulary**. No single taxonomy is complete enough to describe every track.
-
-Use established public style terms when they are strongly supported. A reference taxonomy can help normalize wording, but it is advisory rather than a whitelist.
+Style classification starts with the recording's actual sound and credible public evidence. When an explicitly authorized Style catalog is available in the current session, map supported candidates to it without sacrificing musical accuracy. Without such a catalog, use established public style terms; do not imply that a private whitelist was checked.
 
 ## Established-term rule
 
@@ -24,21 +22,39 @@ Use established public style terms when they are strongly supported. A reference
 - A weak / trace influence that is not materially part of the track's identity should normally be omitted.
 - If fine-grained evidence is weak or conflicting, broaden the label instead of preserving a precise but unstable candidate.
 
-### Final completeness check
+## Primary Style Validation Gate
 
-Before final output, ask whether an established Style that is clearly material to the current recording's identity has been omitted. Add it only when actual musical fit and material identity support it.
+Run this gate before every completed review. It is a classification check, not a request to fill all three Style slots.
 
-This check does not require repeating every Genre as a Style, adding a generic duplicate, or filling all three Style slots. It prevents an established major identity from being omitted merely because narrower labels have already been selected.
+1. **Identify the sound.** Compare rhythm and groove, drums and low end, melody and harmony, instrumentation and sound design, performance, form, production language, and defining traits of candidate styles against the exact recording and credible sources. Do not decide from the title, film/game association, artist scene, one database tag, acoustic instruments, or the absence of vocals alone.
+2. **Validate the primary label.** At least one Style must describe a supported dominant *musical* identity. `Instrumental`, `Acoustic`, `Theme`, `Soundtrack`, and `Video Game Music` are useful when accurate, but a list containing only form, production attribute, or usage-context labels fails this gate. They are not banned: retain `Instrumental` for genuinely instrumental music and an appropriate soundtrack label when its role is material and supported.
+3. **Test fit before specificity.** Verify the proposed style's defining audible traits. A score for a game is not automatically `Orchestral`; piano alone does not establish `Neoclassical`; acoustic instruments do not establish `Folk`; unusual timbres do not automatically establish `Experimental`. Do not flatten all electronic music into one substyle or classify from artist/label identity. Broaden when the precise style lacks evidence.
+4. **Check completeness.** Confirm that the primary style is real and accurate; each additional Style is materially present; instrumental and soundtrack attributes are handled when applicable; no dominant established style is missing; and no label is redundant, weak, or inferred solely to fill a slot.
+
+If no credible dominant style can be identified, do not invent one or present a completed review. State what remains unverified, or ask one concise question if recording identity is the obstacle.
+
+## Optional authorized catalog mapping
+
+The public repository does not contain a Style catalog or a fixed Style count. Use a catalog only when the user explicitly provides or authorizes access to its current version in the running environment. Treat it as read-only session input; never copy private rows, explanations, priority data, source files, or private links into this repository or public tests.
+
+1. Check that Style names are present and unique; inspect provided categories and aliases for blanks, duplicates, and ambiguous near matches. Do not silently choose between conflicting entries.
+2. Identify the true musical style *before* mapping. Match to an exact catalog name or a documented synonym when the recording fits; use a broader catalog term only if it remains musically accurate. Category and alias metadata help disambiguate; they cannot override actual sound.
+3. Put the supported dominant style first. Add only material secondary styles. If a real important style is absent, use an accurate broader catalog label when available and put the uncovered specific public term in the first line of `备注`, without duplicating a Style label already used.
+4. If no accurate catalog term describes the dominant style, use its established public name in `Style` rather than a false in-catalog substitute. Do not repeat that name in `备注`; list only other important uncovered styles there. The primary-style gate takes precedence over forcing a catalog match.
+
+When no authorized catalog is available, use established public terms directly in `Style`. Do not claim in-catalog or out-of-catalog status, and do not add an out-of-catalog note line.
+
+### Out-of-catalog note format
+
+Only after an authorized catalog has actually been checked, if important supported styles remain uncovered, list their public names separated by ` / ` on the first line of the existing `备注` field. Continue with one short line each for Mainstream Appeal and Musicality. Do not add a sixth field, repeat names already represented in `Style`, or add boilerplate about catalog coverage.
 
 ## Workflow
 
-1. Form candidates from the recording's actual musical characteristics and public evidence.
+1. Resolve the exact recording and form style candidates from its musical characteristics and public evidence.
 2. Check whether each candidate is an established name used by reputable databases, publications, artists/labels, or specialist communities.
-3. Normalize obvious near-synonyms and rank the candidates by dominant audible identity.
-4. Keep a regional, era-specific, or scene-specific descriptor when it is important and well supported.
-5. Omit trace influences and broaden weakly supported precision.
-6. Never invent a compound label merely to describe a mixture.
-7. Run the final completeness check before returning the selected labels.
+3. If an authorized catalog is present, map only accurate matches; otherwise normalize to defensible public terms.
+4. Rank by dominant audible identity, keep material secondary styles, omit trace influences, and broaden weakly supported precision.
+5. Run the Primary Style Validation Gate before returning a completed review.
 
 ## Good behavior
 
@@ -54,10 +70,6 @@ This check does not require repeating every Genre as a Style, adding a generic d
 - rejecting a useful established term only because one reference list omits it;
 - inventing labels such as `Proto-X-Adjacent` unless that phrase is itself an established public term.
 
-## Genre versus Style
+## Broad families versus final Style
 
-Use Genre for broad families and Style for finer musical identity. Usually:
-- 1 Genre; use a second only when both broad-family identities are substantial;
-- 1–3 Styles.
-
-A hybrid track may legitimately use more than one Genre when the components are both substantial.
+Broad genre families can orient internal research, including hybrid recordings, but v0.8 does not output a `Genre` field. The completed review normally contains 1–3 Styles, with a supported dominant musical style first.

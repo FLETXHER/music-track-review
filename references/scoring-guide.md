@@ -141,7 +141,7 @@ For **Mainstream Appeal**, normally retain one or two central accessibility stre
 
 These are compression patterns, not a replacement for any dimension. The default note is a concise diagnostic QC work record, not an audit report or a full music review, and must not expand into one full sentence per dimension.
 
-Aim for roughly 60–100 Chinese characters for the whole note and normally stay at or below about 120. This is a soft target: concrete 5/5 affirmative evidence, exact-version reasoning, or a special form may require more wording. Preserve correctness, then deduplicate.
+Aim for roughly 60–100 Chinese characters for the score explanation and normally stay at or below about 120. This is a soft target: concrete 5/5 affirmative evidence, exact-version reasoning, a special form, or the optional first line for verified out-of-catalog styles may require more wording. Preserve correctness, then deduplicate.
 
 ### Score-to-note consistency check
 
@@ -153,6 +153,12 @@ Before final output:
 4. revise the note or score if they materially conflict.
 
 Do not leave a note that describes several broad-listener barriers while claiming Mainstream Appeal 5/5, or a note that describes a stable professional result with only minor limitations while mechanically reducing Musicality to 3/5.
+
+### Specific deduction check
+
+Every score below 5/5 needs at least one concrete, supported limitation. For Musicality 4/5 in particular, naming a stable professional result without explaining its actual limit is insufficient. Phrases such as “发展有限”, “略显普通”, “变化不够”, “缺乏惊喜”, or “不够高级” cannot stand alone as a deduction: identify the relevant motif, section, instrumental layer, mix interaction, performance, or other specific musical fact. A minor, bounded limitation can justify 4/5; it must not be counted as a foundational weakness or used to force 3/5.
+
+Do not invent a flaw just to fill the deduction clause. If listening or credible evidence is insufficient to support the claimed issue, verify it first or avoid presenting that issue as fact. This strengthens the existing score-to-note consistency gate; it does not change any score calibration.
 
 ### Positive highlights and tone
 
@@ -171,7 +177,7 @@ A note that only describes what the track contains is invalid. It must explain w
 Do not substitute release background, single status, artist fame, charts, sales, awards, cultural status, album background, or credits themselves for a deduction reason. Credits, producers, or instruments may appear only when they explain a specific musical result.
 
 Good:
-- `大众性3分：反复句和鼓点有入口，但长篇verse、弱副歌削弱结构回归；音乐性4分：Flow与采样推进稳定，制作和说唱控制可靠，但段落发展有限。`
+- `大众性3分：反复句和鼓点有入口，但长篇verse、弱副歌削弱结构回归；音乐性4分：Flow与采样推进稳定，制作和说唱控制可靠，但副歌回归时伴奏层次变化少。`
 
 Invalid:
 - `大众性3分：歌曲使用Soul采样，由某制作人制作；音乐性4分：歌手表现很好。`
@@ -181,7 +187,7 @@ Invalid:
 The note should be short but diagnostic.
 
 Good:
-- `大众性4分：旋律和groove直接，编配、音色与结构易读，但Hook推进有限；音乐性4分：旋律与编配自然，制作和表演稳定，但段落发展不足以到5分。`
+- `大众性4分：旋律和groove直接，编配、音色与结构易读，但副歌Hook的旋律推进弱；音乐性4分：旋律与编配自然，制作和表演稳定，但重复段落的配器层次变化少。`
 
 Weak:
 - `大众性一般；音乐性不错。`

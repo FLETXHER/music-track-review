@@ -5,7 +5,6 @@ These are behavioral calibration examples, not immutable genre truth. The import
 ## JAY-Z — What More Can I Say
 
 ```text
-Genre：Hip Hop
 Style：East Coast Rap / Hardcore Hip-Hop / Soul
 听感年代：现代
 大众性：3/5
@@ -17,43 +16,39 @@ Style：East Coast Rap / Hardcore Hip-Hop / Soul
 ## Common feat. Lonnie “Pops” Lynn — Pops Rap III...All My Children
 
 ```text
-Genre：Hip Hop
 Style：Jazzy Hip-Hop / Conscious / Spoken Word
 听感年代：现代
 大众性：2/5
 音乐性：4/5
 
-备注：大众性2分：口述节奏与爵士化织体可读，但旋律型Hook弱、长篇独白限制结构入口；音乐性4分：语句重音、编配和制作稳定，叙事氛围统一，但旋律与段落发展有限。
+备注：大众性2分：口述节奏与爵士化织体可读，但旋律型Hook弱、长篇独白限制结构入口；音乐性4分：语句重音、编配和制作稳定，叙事氛围统一，但口述段落的旋律动机变化少。
 ```
 
 ## Bob Dylan — Tryin' to Get to Heaven (Version 2)
 
 ```text
-Genre：Rock / Folk / World & Country
 Style：Folk Rock / Roots Rock / Blues Rock
 听感年代：经典怀旧
 大众性：3/5
 音乐性：4/5
 
-备注：大众性3分：反复句和稳定脉冲有入口，但篇幅偏长、强副歌回归有限；音乐性4分：旋律叙事与乐队编配自然，制作和人声控制可靠，但段落发展较克制。
+备注：大众性3分：反复句和稳定脉冲有入口，但篇幅偏长、强副歌回归有限；音乐性4分：旋律叙事与乐队编配自然，制作和人声控制可靠，但重复主歌间的乐队层次变化少。
 ```
 
 ## Joji — Die For You
 
 ```text
-Genre：Pop / Funk / Soul
 Style：Alternative R&B / Downtempo / Alt-Pop
 听感年代：现代
 大众性：5/5
 音乐性：4/5
 
-备注：大众性5分：旋律、副歌和groove直接，编配、人声与音色易接近，结构回归清楚；音乐性4分：旋律与副歌编配贴合，制作和人声控制稳定，但音色与段落发展较克制。
+备注：大众性5分：旋律、副歌和groove直接，编配、人声与音色易接近，结构回归清楚；音乐性4分：旋律与副歌编配贴合，制作和人声控制稳定，但副歌回归时编配层次变化较少。
 ```
 
 ## Nine Inch Nails — Hurt
 
 ```text
-Genre：Rock / Electronic
 Style：Industrial / Alternative Rock / Ambient
 听感年代：经典怀旧
 大众性：3/5
@@ -65,7 +60,6 @@ Style：Industrial / Alternative Rock / Ambient
 ## SOPHIE — Immaterial
 
 ```text
-Genre：Electronic / Pop
 Style：Hyperpop / Dance-pop / Experimental Pop
 听感年代：现代
 大众性：4/5
@@ -77,11 +71,10 @@ Style：Hyperpop / Dance-pop / Experimental Pop
 ## Kali Uchis — Killer
 
 ```text
-Genre：Funk / Soul / Pop
 Style：Soul / Retro Soul / Contemporary R&B
 听感年代：复古
 大众性：4/5
 音乐性：4/5
 
-备注：大众性4分：旋律、演唱和慢速groove易接近，传统结构清楚，但复古慢速取向收窄受众；音乐性4分：旋律与温暖配器自然，制作和人声控制稳定，但段落发展较克制。
+备注：大众性4分：旋律、演唱和慢速groove易接近，传统结构清楚，但复古慢速取向收窄受众；音乐性4分：旋律与温暖配器自然，制作和人声控制稳定，但重复段落的编配层次变化较少。
 ```

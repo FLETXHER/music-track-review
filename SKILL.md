@@ -1,6 +1,6 @@
 ---
 name: music-track-review
-description: Research and review individual music tracks from an artist name plus track title, using current web evidence to classify genre/style and score mainstream appeal and musicality. Use whenever a user submits a song, recording, remix, live version, alternate take, or a short list of tracks and wants concise music classification or scoring.
+description: Research and review individual music tracks from an artist name plus track title, using current web evidence to classify Style and score mainstream appeal and musicality. Use whenever a user submits a song, recording, remix, live version, alternate take, or a short list of tracks and wants concise music classification or scoring.
 compatibility: Requires a web search, browser, or retrieval capability that can access public music sources. If web access is unavailable, do not present research-dependent classification or scoring as verified.
 ---
 
@@ -21,13 +21,12 @@ Turn a minimal input such as `Artist - Track` into a compact, repeatable music r
    - Do not rely on model memory alone.
    - Read `references/web-research.md` for evidence selection and the final-output firewall.
 
-3. **Classify Genre and Style.**
-   - Determine the music's dominant characteristics from evidence, not from a single database label.
-   - Use `references/style-research-policy.md`.
-   - Broad genre families in `references/genre-family-guide.md` are orientation only.
-   - Style vocabulary is open but normalized: use established, dominant public terms when well supported.
-   - Never invent a temporary compound label to force a fit.
-   - Put actual musical fit first; omit weak or trace influences and broaden the label when evidence is insufficient.
+3. **Classify Style and run the Primary Style Validation Gate.**
+   - Read `references/style-research-policy.md` for the full gate and optional authorized catalog mapping. Use `references/genre-family-guide.md` only for internal orientation.
+   - Identify the dominant musical identity from the exact recording and credible evidence before choosing labels. At least one Style must describe a supported dominant musical style; `Instrumental`, `Acoustic`, `Theme`, `Soundtrack`, or `Video Game Music` alone do not complete classification.
+   - Keep genuine instrumental or soundtrack attributes when relevant, but check every label for musical fit and material importance. Never force three Styles or invent a compound term.
+   - If an explicitly authorized catalog is accessible in this session, map accurate terms to it; otherwise use established public vocabulary. Never invent catalog membership or choose a wrong label to satisfy a catalog.
+   - If no credible dominant style can be identified, state what needs verification rather than issuing a completed review.
 
 4. **Judge listening era.**
    Choose one:
@@ -51,6 +50,7 @@ Turn a minimal input such as `Artist - Track` into a compact, repeatable music r
    - Treat 4/5 Musicality as the normal professional pass band; use 3/5 only when a clear pattern of foundational weakness materially prevents a stable professional result. Do not count dimensions mechanically.
    - For either score, award 5/5 only when concrete affirmative evidence supports why the recording reaches the top band, not merely because meaningful defects are absent.
    - Before finalizing, check all five relevant dimensions for each score internally, then use the note-compression gate to merge their evidence into compact wording. Compare the note with the chosen numbers and resolve any contradiction without changing the rubric into arithmetic.
+   - A score below 5/5 needs a concrete, supported limit. In particular, Musicality 4/5 cannot rely on vague deductions such as “发展有限” without the specific musical event or section; do not invent a defect when evidence is insufficient.
    - Do not raise Musicality because a work is famous, canonical, critically acclaimed, or commercially successful.
    - Do not lower Musicality merely because Mainstream Appeal is low.
 
@@ -58,7 +58,6 @@ Turn a minimal input such as `Artist - Track` into a compact, repeatable music r
    Use exactly this field order:
 
 ```text
-Genre：...
 Style：...
 听感年代：现代 / 复古 / 经典怀旧
 大众性：X/5
@@ -67,6 +66,8 @@ Style：...
 备注：大众性X分：……；音乐性X分：……。
 ```
 
+When an authorized catalog was actually checked and an important established style is absent from it, use the three-line continuation inside `备注` defined in `references/style-research-policy.md`. Otherwise retain the single-line note above. Never add a separate `Genre` or out-of-catalog field.
+
 ### Natural-language pass
 
 Before final output, lightly rewrite the note so it reads like concise human-written analysis rather than generic AI prose.
@@ -74,7 +75,7 @@ Before final output, lightly rewrite the note so it reads like concise human-wri
 This pass is stylistic only.
 
 It must NOT:
-- change Genre, Style, listening era, or either score;
+- change Style, listening era, or either score;
 - add or remove scoring reasons;
 - introduce new facts, credits, instruments, or evidence;
 - weaken the explicit score-deduction requirement;
@@ -107,13 +108,13 @@ The humanization pass may improve wording only. Evidence and scoring logic alway
 
 For Mainstream Appeal, normally retain one or two central accessibility strengths and one or two real barriers. For Musicality, retain the stable professional result or foundational-weakness pattern, the largest production/arrangement/performance issue, and what blocks the next band.
 
-Aim for roughly 60–100 Chinese characters for the whole note and normally stay at or below about 120. This is a soft target: go longer only when concrete 5/5 affirmative evidence, exact-version reasoning, or a special form needs more wording. Correctness wins, but deduplicate first.
+Aim for roughly 60–100 Chinese characters for the score explanation and normally stay at or below about 120. This is a soft target: concrete 5/5 affirmative evidence, exact-version reasoning, a special form, or a verified out-of-catalog Style line may need more wording. Correctness wins, but deduplicate first.
 
 ## Output rules
 
-- Usually give 1 Genre label and 1–3 Style labels; add a second Genre only when the recording genuinely has two substantial broad-family identities.
+- Usually give 1–3 Style labels, with a supported dominant musical style first; broad genre families are internal only.
 - Prefer dominant styles; omit trace influences that are not important to the track's identity.
-- Before final output, check whether an established Style that is clearly material to the recording's identity has been omitted; add it only when actual musical fit supports it, and do not force a generic duplicate or a third label.
+- Before final output, apply the Primary Style Validation Gate from `references/style-research-policy.md`, including genuine instrumental/soundtrack attributes and the fit of every secondary label.
 - Keep the default note compact and concrete: it is a concise QC work note, not an audit report.
 - For each numeric score, assess all five relevant dimensions as an exhaustive internal check, then write selectively using only score-moving evidence. For instrumental, rap, spoken-word, or similar recordings, assess performance/execution appropriately instead of fabricating conventional vocal evidence.
 - This is a coverage requirement, not a five-subscore table, an arithmetic formula, or a reason to count minor limitations as deductions.
@@ -121,10 +122,10 @@ Aim for roughly 60–100 Chinese characters for the whole note and normally stay
 - For every score below 5/5, the note must name at least one concrete limitation that prevents the next higher score. A note that only describes the track is invalid.
 - For every 5/5, the note must name concrete affirmative evidence that supports the top band; “没有明显问题” alone is invalid.
 - For 3/5 and 4/5, a concrete positive highlight is optional; include it only when it adds non-redundant value. Every 5/5 must state concrete affirmative or standout evidence inside the relevant score section. Do not create a standalone highlight field.
-- Before output, run a score-to-note consistency check: the documented strengths, barriers, and foundational weaknesses must support the selected number. Revise the note or score if they conflict.
+- Before output, run a score-to-note consistency check: the documented strengths, barriers, and foundational weaknesses must support the selected number. Each sub-5 deduction must name a specific supported musical reason, especially at Musicality 4/5; do not invent an unheard weakness to fill the note.
 - Do not print the research process, source list, or a five-dimension scorecard unless the user asks.
 - In the default compact review, do not include artist/creator biography, album or release story, producer/remixer identity, charts, sales, awards, historical context, or style-history discussion. Use research context only to resolve and understand the current recording.
-- Never place citations, source markers, reference IDs, or URLs inside Genre, Style, 听感年代, 大众性, 音乐性, or 备注.
+- Never place citations, source markers, reference IDs, or URLs inside Style, 听感年代, 大众性, 音乐性, or 备注.
 - If the host requires citations, place them only after the complete compact review.
 - If evidence is incomplete, prefer a broader defensible label over a falsely precise label.
 - If web access is unavailable, explicitly state that web research could not be performed and do not pretend the result is verified.

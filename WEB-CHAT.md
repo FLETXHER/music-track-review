@@ -1,6 +1,6 @@
 # Music Track Review — Web Chat Ruleset
 
-Ruleset version: v0.7
+Ruleset version: v0.8
 
 ## Usage
 
@@ -19,7 +19,7 @@ Ruleset version: v0.7
 ## Output language
 
 - 最终回答一律使用简体中文。
-- Genre / Style 的标准音乐风格名称保留英文。
+- Style 的标准音乐风格名称保留英文。
 - 不得因为本规则文件含英文而改用英文输出。
 
 ## Web research
@@ -35,7 +35,7 @@ Ruleset version: v0.7
 | 需要确认的事实 | 优先来源与用途 |
 |---|---|
 | 发行身份、日期、版本、艺人/制作人员 credits | 艺人、厂牌、发行商的官方页面；MusicBrainz；Discogs；合适的专业数据库或店铺；可信音乐媒体 |
-| 精细 Genre / Style | Rate Your Music（RYM）、AllMusic、MusicBrainz 的 genre/tag、Discogs 的 genre/style、Beatport（尤其电子与 club 音乐）、艺人/厂牌介绍、专业音乐媒体 |
+| 精细 Style | Rate Your Music（RYM）、AllMusic、MusicBrainz 的 genre/tag、Discogs 的 genre/style、Beatport（尤其电子与 club 音乐）、艺人/厂牌介绍、专业音乐媒体 |
 | 电子/club 音乐的子风格、BPM、mix/version、club 定位 | Beatport 与艺人/厂牌发行页面；不能把单个店铺标签当作唯一答案 |
 | 编曲、制作、演唱、音色、采样、动态等具体听感事实 | 官方 credits/liner notes、艺人或制作人访谈、MusicBrainz/Discogs credits、Pitchfork、Resident Advisor、The Guardian、The Fader、Consequence 及同等专业媒体 |
 
@@ -64,12 +64,11 @@ RYM 和 AllMusic 适合帮助核对细分 Style，但都不是绝对权威或白
 
 credits 不会因为署名者是谁而提高或降低分数。只有它们能解释具体音乐效果时，才可极简提及；用户明确要求背景时，另行回答，不要混入默认短评。
 
-## Genre / Style
+## Style
 
-- Genre 使用 broad family，作为大类音乐家族；可参考 Blues、Classical、Electronic、Folk / World & Country、Funk / Soul、Hip Hop、Jazz、Latin、Pop、Reggae、Rock、Stage & Screen 等公开常见大类。
-- Style 使用经过网页核实、可规范化到公共音乐语境的标准音乐风格名称。
-- Genre 通常只给 1 个、Style 通常给 1–3 个；只有一首歌确实同时具有两个实质性大类身份时，Genre 才可以有两个。
-- 以实际音乐匹配和曲目主导身份为先，并把最主导的 Style 放在前面；省略只是一闪而过、并不重要的影响。
+- Broad genre family 可用于内部判断音乐类别，但最终不输出 Genre 字段。
+- Style 使用经过网页核实、可规范化到公共音乐语境的标准音乐风格名称；通常 1–3 个，以真实主导音乐风格为第一项。
+- 以实际音乐匹配和曲目主导身份为先；省略只是一闪而过、并不重要的影响。
 - 不允许临时创造看似合理的组合标签，也不要为了凑满三个 Style 过度推断。
 - sonic description、情绪词或歌词描述不等于 Style。比如 braggadocio 可以描述说唱表达，但不能自动输出 `Braggadocio Rap`。
 - 若证据显示一种影响、却不足以证明它是已建立的 compound style，选用更简单的已建立标签，例如 Soul、East Coast Rap、Hardcore Hip-Hop、Hard Techno。
@@ -78,11 +77,26 @@ credits 不会因为署名者是谁而提高或降低分数。只有它们能解
 - 弱/痕量影响若并非曲目身份的重要组成部分，通常省略。
 - 细分证据不足或相互冲突时，使用更宽的稳定标签，而不是保留看似精确但不可靠的候选。
 
-### Style completeness check
+### Primary Style Validation Gate
 
-Before final output, check whether an established Style that is clearly material to the current recording's identity has been omitted. Add it only when actual musical fit and material identity support it.
+每首歌正式输出前必须通过以下检查：
 
-This does not require repeating every Genre as a Style, adding a generic duplicate, or filling all three Style slots. It prevents an established major identity from being omitted merely because narrower labels have already been selected.
+1. **识别声音身份。** 根据节奏与律动、鼓组与低频、旋律与和声、配器与声音设计、人声/表演、段落与制作语言，以及候选风格的标志性特征，结合当前具体录音和可信公开证据判断。标题、电影/游戏归属、艺人场景、单站标签、是否原声乐器或有人声，都不能单独决定主导风格。
+2. **核查主导标签。** `Style` 至少有一个可信、真正描述主导*音乐*风格的标签。若最终只有 `Instrumental`、`Acoustic`、`Theme`、`Soundtrack`、`Video Game Music` 等形式、属性或用途标签，分类未完成。它们不是禁用词：纯音乐应正确保留 `Instrumental`，明显配乐属性可保留相应标签，但都不能取代主导风格。
+3. **核查准确性。** 配乐不自动等于 `Orchestral`，钢琴独奏不自动等于 `Neoclassical`，原声乐器不自动等于 `Folk`，实验音色不自动等于 `Experimental`；不要把电子音乐都归为同一子风格，或凭歌手/厂牌背景定风格。逐项核对核心声音特征，证据不足时使用较宽但准确的标签。
+4. **完整性检查。** 确认主导音乐风格准确；每个附加 Style 都有重要的真实特征；`Instrumental` 与配乐属性在适用时没有遗漏；没有错误、重复、痕量或为凑数量而添加的标签。不需要填满三个位置。
+
+若仍无法识别可信的主导风格，不得编造标签或输出完成态短评。说明待核验点；若问题是录音版本不清，先问一个简短澄清问题。
+
+### Optional authorized catalog mapping
+
+本公开规则文件不附带 Style 标签库，也不保证某个固定词条数量。仅当用户在当前会话明确提供或授权读取合法可访问的最新版标签库时，才执行库内映射；不自动访问受限内部页面，不把私有表格、完整词表、解释列、优先级、人员信息或私人链接发送到公共服务或写入公开仓库。
+
+先识别实际风格，再只读核查标签库的唯一 Style 名称、分类、已提供的同义词/近似映射和缺失、重复、歧义项；不能把猜测当成词表别名。准确匹配时优先使用库内名称，较宽的库内标签只有在仍准确描述音乐时才可使用，库的分类信息不能推翻声音证据。
+
+若重要的已建立风格不在已核查的库内：优先在 `Style` 使用准确的库内主导或较宽标签，并把未覆盖的具体风格放到 `备注` 首行。若库内连一个准确的主导标签都没有，则在 `Style` 使用经过公开证据支持的真实主导风格，绝不放入错误的库内替代项；`备注` 不重复已经写进 `Style` 的名称。
+
+没有获授权的可用标签库时，直接使用可信公开风格词汇作为降级方案。此时不能声称完成严格库内匹配，也不能判断某风格“库外”，因此不添加库外风格备注首行。
 
 ## Listening era
 
@@ -240,7 +254,7 @@ This does not require repeating every Genre as a Style, adding a generic duplica
 
 大众性通常保留 1–2 个主要可及性优势和 1–2 个真实门槛，可把 melody / Hook 与 rhythm / groove，或编配与 timbre / mix 合并表达。音乐性通常保留稳定专业结果或基础性弱点模式、最大的制作/编配/表演问题，以及阻止更高一档的原因。
 
-这只是压缩方式，不替代任何一个维度。默认备注是简短、直接、高信息密度、问题导向的 QC 工作记录，不是 audit report，也不是完整乐评。整段备注默认目标约 60–100 个中文字符，通常不超过约 120 个；这只是软目标。只有具体的 5/5 正向证据、exact version 的必要说明或特殊作品形式需要时才可更长；正确性优先，但先主动去重。
+这只是压缩方式，不替代任何一个维度。默认备注是简短、直接、高信息密度、问题导向的 QC 工作记录，不是 audit report，也不是完整乐评。评分说明默认目标约 60–100 个中文字符，通常不超过约 120 个；这只是软目标。具体的 5/5 正向证据、exact version 的必要说明、特殊作品形式，或已核查的库外风格首行可能需要更长；正确性优先，但先主动去重。
 
 ### Score-note requirement
 
@@ -253,6 +267,8 @@ This does not require repeating every Genre as a Style, adding a generic duplica
 - **1/5：** 必须明确写出严重失败点。
 
 备注不能只描述歌曲“有什么”。如果备注没有解释“什么因素提高了分数、什么因素限制了分数”，则视为无效备注。`表现很好`、`完成度很高`、`很专业`、`很有特色`、`很不错`、`整体优秀`等泛泛赞美，只有紧跟具体可听见或研究得到的证据时才可使用。
+
+任何低于 5/5 的分数都必须有真实、具体、受到听感或可靠资料支持的限制因素。特别是音乐性 4/5，`发展有限`、`略显普通`、`变化不够`、`缺乏惊喜`、`不够高级` 等不能单独充当失分依据；如使用这类概括，须指出具体的动机、段落、声部、混音或表演问题。不能为了凑扣分理由而虚构未听见或未经核实的缺陷；证据不足时先补查，不要将猜测写成事实。
 
 不得使用以下内容代替失分理由：
 
@@ -273,7 +289,7 @@ credits、制作人、乐器等只有在它们能够解释具体音乐表现时�
 输出前依次检查：
 
 1. 先按既有 rubric 选择分数；
-2. 用五个相关维度写出支撑该分数的具体理由，以及适用时阻止更高一档的限制；
+2. 内部检查五个相关维度，写出支撑该分数的具体理由，以及适用时阻止更高一档的限制；
 3. 比对文字与分数是否一致；
 4. 如有冲突，修订备注或分数，使两者重新一致。
 
@@ -289,21 +305,30 @@ credits、制作人、乐器等只有在它们能够解释具体音乐表现时�
 
 Good:
 
-`大众性3分：反复句和鼓点有入口，但长篇verse、弱副歌削弱结构回归；音乐性4分：Flow与采样推进稳定，制作和说唱控制可靠，但段落发展有限。`
+`大众性3分：反复句和鼓点有入口，但长篇verse、弱副歌削弱结构回归；音乐性4分：Flow与采样推进稳定，制作和说唱控制可靠，但副歌回归时伴奏层次变化少。`
 
 Invalid:
 
 `大众性3分：歌曲使用Soul采样，由某制作人制作；音乐性4分：歌手表现很好。`
 
-备注固定结构：
+备注有两种结构，均只占用同一个 `备注` 字段：
 
-`备注：大众性X分：……；音乐性X分：……。`
+- 未核查授权标签库，或没有重要库外风格：`备注：大众性X分：……；音乐性X分：……。`
+- 已核查授权标签库，且有真实、重要、尚未由 `Style` 表达的库外风格：
+
+```text
+备注：库外风格A / 库外风格B
+大众性X分：……
+音乐性X分：……。
+```
+
+上例中的名称只是格式占位，不代表已经核验任何实际风格。`大众性X分` 和 `音乐性X分` 是同一备注的续行，不是新增字段。库外名称只写可核查的重要风格，不加“当前标签库未覆盖”等套话，也不重复 `Style`。评分两行仍须符合具体失分理由和分数一致性要求。
 
 备注中禁止写与评分无关的发行背景、是否单曲、榜单、销量、艺人知名度、文化地位或歌词主题。只有当歌词主题确实直接影响音乐表现且与分数有关时，才可极简提及。
 
 五维必须在内部完整检查，但不要把备注写成评分表或逐维报告。用选择性的短分句呈现最有力、且不重复的分数证据，并保持紧凑可读。好的备注应短但有诊断性，例如：
 
-`大众性4分：旋律和groove直接，编配、音色与结构易读，但Hook推进有限；音乐性4分：旋律与配器自然，制作和表演稳定，但段落发展不足以到5分。`
+`大众性4分：旋律和groove直接，编配、音色与结构易读，但副歌Hook的旋律推进弱；音乐性4分：旋律与配器自然，制作和表演稳定，但重复段落的配器层次变化少。`
 
 不要写成：
 
@@ -311,7 +336,7 @@ Invalid:
 
 ### Final-output firewall
 
-研究上下文不是默认输出内容。默认短评不得出现艺人/创作者生平、专辑或发行故事、制作人/remixer 身份、榜单、销量、奖项、商业表现、历史或文化背景、风格史、研究过程、来源清单或 URL。
+研究上下文不是默认输出内容。除实际核查后的必要库外 Style 首行外，默认短评不得出现艺人/创作者生平、专辑或发行故事、制作人/remixer 身份、榜单、销量、奖项、商业表现、历史或文化背景、风格史、研究过程、来源清单或 URL。
 
 只解释当前录音的音乐理由。credits、制作人、乐器或采样仅当它们直接说明具体音乐表现时才可极简出现，不能以署名本身代替理由。用户若明确要求背景，另行回答，不要混入默认短评。
 
@@ -322,7 +347,7 @@ Before final output, lightly rewrite the note so it reads like concise human-wri
 This pass is stylistic only.
 
 It must NOT:
-- change Genre, Style, listening era, or either score;
+- change Style, listening era, or either score;
 - add or remove scoring reasons;
 - introduce new facts, credits, instruments, or evidence;
 - weaken the explicit score-deduction requirement;
@@ -348,7 +373,6 @@ The humanization pass may improve wording only. Evidence and scoring logic alway
 默认只能输出以下内容，字段顺序与空行保持一致：
 
 ```text
-Genre：...
 Style：...
 听感年代：现代 / 复古 / 经典怀旧
 大众性：X/5
@@ -356,6 +380,8 @@ Style：...
 
 备注：大众性X分：……；音乐性X分：……。
 ```
+
+已核查授权标签库且确有重要库外风格时，按上文三行备注续行格式输出，字段仍然只有五个。未获授权标签库时不得伪称“库外”。
 
 不得增加 `Track`、`Label`、`Released`、`Length`、`Comments`、`Sound`、`Listening Era` 或其他字段。
 
@@ -368,7 +394,6 @@ citation、reference marker、URL 不允许出现在任何字段或备注内部�
 ### JAY-Z — What More Can I Say
 
 ```text
-Genre：Hip Hop
 Style：East Coast Rap / Hardcore Hip-Hop / Soul
 听感年代：现代
 大众性：3/5
@@ -380,23 +405,21 @@ Style：East Coast Rap / Hardcore Hip-Hop / Soul
 ### Joji — Die For You
 
 ```text
-Genre：Pop / Funk / Soul
 Style：Alternative R&B / Downtempo / Alt-Pop
 听感年代：现代
 大众性：5/5
 音乐性：4/5
 
-备注：大众性5分：旋律、副歌和groove直接，编配、人声与音色易接近，结构回归清楚；音乐性4分：旋律与副歌编配贴合，制作和人声控制稳定，但音色与段落发展较克制。
+备注：大众性5分：旋律、副歌和groove直接，编配、人声与音色易接近，结构回归清楚；音乐性4分：旋律与副歌编配贴合，制作和人声控制稳定，但副歌回归时编配层次变化较少。
 ```
 
 ### Kali Uchis — Killer
 
 ```text
-Genre：Funk / Soul / Pop
 Style：Soul / Retro Soul / Contemporary R&B
 听感年代：复古
 大众性：4/5
 音乐性：4/5
 
-备注：大众性4分：旋律、演唱和慢速groove易接近，传统结构清楚，但复古慢速取向收窄受众；音乐性4分：旋律与温暖配器自然，制作和人声控制稳定，但段落发展较克制。
+备注：大众性4分：旋律、演唱和慢速groove易接近，传统结构清楚，但复古慢速取向收窄受众；音乐性4分：旋律与温暖配器自然，制作和人声控制稳定，但重复段落的编配层次变化较少。
 ```

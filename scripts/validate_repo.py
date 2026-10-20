@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = [
     "README.md",
     "SKILL.md",
+    "WEB-CHAT.md",
     "references/scoring-guide.md",
     "references/web-research.md",
     "references/style-research-policy.md",
@@ -37,6 +38,10 @@ INTERNAL_URL = re.compile(
     r"https?://[^\s/]*(?:internal|intranet|private|corp)[^\s/]*(?:/[^\s]*)?",
     re.I,
 )
+TEXT_BLOCK = re.compile(r"^```text[ \t]*\r?\n(.*?)^```[ \t]*$", re.M | re.S)
+OUTPUT_FIELD = re.compile(r"^(Genre|Style|听感年代|大众性|音乐性|备注)：")
+OUTPUT_DOCS = ["README.md", "SKILL.md", "WEB-CHAT.md", "references/examples.md"]
+EXPECTED_OUTPUT_FIELDS = ["Style", "听感年代", "大众性", "音乐性", "备注"]
 
 
 def fail(message: str) -> None:
@@ -117,6 +122,29 @@ if data.get("skill_name") != name:
 if not isinstance(data.get("evals"), list) or len(data["evals"]) < 3:
     fail("evals/evals.json must contain at least three evals")
 
+web_rules = (ROOT / "WEB-CHAT.md").read_text(encoding="utf-8")
+readme = (ROOT / "README.md").read_text(encoding="utf-8")
+version = re.search(r"^Ruleset version: (v\d+\.\d+)$", web_rules, re.M)
+readme_version = re.search(r"^Current web-chat ruleset: \*\*(v\d+\.\d+)\*\*$", readme, re.M)
+if not version or not readme_version or version.group(1) != readme_version.group(1):
+    fail("README and WEB-CHAT.md ruleset versions must match")
+if f"1. `{version.group(1)}`" not in readme:
+    fail("README quick-start version answer must match WEB-CHAT.md")
+
+for rel in OUTPUT_DOCS:
+    source = (ROOT / rel).read_text(encoding="utf-8")
+    seen = 0
+    for block in TEXT_BLOCK.findall(source):
+        labels = [match.group(1) for line in block.splitlines()
+                  if (match := OUTPUT_FIELD.match(line))]
+        if "Style" not in labels and "Genre" not in labels:
+            continue
+        seen += 1
+        if labels != EXPECTED_OUTPUT_FIELDS:
+            fail(f"{rel} output example must use only the five v0.8 fields in order")
+    if not seen:
+        fail(f"{rel} must contain a five-field output example")
+
 for path in iter_repository_files():
     if path.suffix.lower() not in TEXT_EXTENSIONS:
         continue
@@ -124,4 +152,4 @@ for path in iter_repository_files():
     if INTERNAL_URL.search(text):
         fail(f"obvious internal URL found in {path.relative_to(ROOT)}")
 
-print("PASS: repository structure, frontmatter, eval JSON, and public-disclosure checks")
+print("PASS: repository structure, frontmatter, eval JSON, five-field output, version, and public-disclosure checks")

@@ -32,22 +32,24 @@ https://raw.githubusercontent.com/FLETXHER/music-track-review/main/WEB-CHAT.md
 6. 音乐性 3/5 的校准短语是什么？
 7. 音乐性 5/5 是否必须提供明确的正向证据？
 8. 默认短评是否可以加入艺人、专辑或发行背景？
-9. citation / reference marker 是否允许出现在 Genre、Style、听感年代、大众性、音乐性或“备注”字段内部？
-10. 默认备注的五维判断是如何要求的？
-11. 3/5 或 4/5 的默认备注是否必须额外追加“亮点：”？
-12. 默认备注的长度和写法目标是什么？
+9. citation / reference marker 是否允许出现在 Style、听感年代、大众性、音乐性或“备注”字段内部？
+10. 默认输出有哪五个字段，是否包含 Genre？
+11. 只有 Instrumental / Soundtrack 等形式或用途标签，能否通过 Primary Style Validation Gate？
+12. 没有用户授权的 Style 标签库时，能否声称完成严格库内匹配？
+13. 音乐性 4/5 的备注能否只写“发展有限”作为扣分理由？
+14. 五维判断如何用于默认约 60–100 字的备注？
 
 如果读取正确，之后等待我发送 Artist - Track。
 
 之后每收到一首歌：
 - 必须重新联网研究 exact track / recording / version；
-- 严格按照 WEB-CHAT.md 的 Genre、Style、听感年代、大众性、音乐性和备注规则执行；
+- 严格按照 WEB-CHAT.md 的 Style、听感年代、大众性、音乐性和备注规则执行；
 - 默认只输出规则规定的短格式。
 ```
 
 校验正确结果依次为：
 
-1. `v0.7`
+1. `v0.8`
 2. `2/5`
 3. `3/5`
 4. `5/5`
@@ -56,9 +58,11 @@ https://raw.githubusercontent.com/FLETXHER/music-track-review/main/WEB-CHAT.md
 7. `是，必须`
 8. `不允许`
 9. `不允许`
-10. `内部必须完整检查五维；最终备注选择性压缩，不必逐项展开。`
-11. `不必须；只有非重复且有记录价值的亮点才加入。`
-12. `约60–100个中文字符，通常不超过约120；内部完整检查后写成简短 QC 工作记录。`
+10. `Style、听感年代、大众性、音乐性、备注；不包含 Genre。`
+11. `不能；至少需要一个可信的主导音乐风格。`
+12. `不能；应使用可信公开风格词汇作为降级方案。`
+13. `不能；必须指出具体、经证据支持的音乐限制，不能虚构缺陷。`
+14. `内部完整检查五维，最终只写影响分数的证据；约60–100字，通常不超过约120字。`
 
 如果回答与上述结果不一致，请让模型重新读取 `WEB-CHAT.md` 后再开始分析歌曲。
 
@@ -67,7 +71,7 @@ https://raw.githubusercontent.com/FLETXHER/music-track-review/main/WEB-CHAT.md
 
 ## Web Chat Compatibility
 
-Compatibility observations below are based on prior web-chat testing and may change with model or product versions. v0.7 was not re-benchmarked across every listed platform before release.
+Compatibility observations below are based on prior web-chat testing and may change with model or product versions. v0.8 has not been re-benchmarked across every listed platform.
 
 | Platform | Status | Notes |
 | --- | --- | --- |
@@ -111,10 +115,12 @@ Gemini Web currently requires importing the GitHub repository instead of reading
 6. 音乐性 3/5 的校准短语是什么？
 7. 音乐性 5/5 是否必须提供明确的正向证据？
 8. 默认短评是否可以加入艺人、专辑或发行背景？
-9. citation / reference marker 是否允许出现在 Genre、Style、听感年代、大众性、音乐性或“备注”字段内部？
-10. 默认备注的五维判断是如何要求的？
-11. 3/5 或 4/5 的默认备注是否必须额外追加“亮点：”？
-12. 默认备注的长度和写法目标是什么？
+9. citation / reference marker 是否允许出现在 Style、听感年代、大众性、音乐性或“备注”字段内部？
+10. 默认输出有哪五个字段，是否包含 Genre？
+11. 只有 Instrumental / Soundtrack 等形式或用途标签，能否通过 Primary Style Validation Gate？
+12. 没有用户授权的 Style 标签库时，能否声称完成严格库内匹配？
+13. 音乐性 4/5 的备注能否只写“发展有限”作为扣分理由？
+14. 五维判断如何用于默认约 60–100 字的备注？
 
 读取正确后等待我发送 Artist - Track。
 ```
@@ -131,7 +137,6 @@ It is designed to work in two ways:
 ## What it returns
 
 ```text
-Genre：...
 Style：...
 听感年代：现代 / 复古 / 经典怀旧
 大众性：X/5
@@ -141,25 +146,26 @@ Style：...
 ```
 
 The default answer stays short. Long-form research, source-by-source discussion, and dimension tables are only shown when the user asks.
+When an authorized catalog was actually checked and a material established style is absent from it, `备注` may use one style-name line followed by separate short lines for the two scores. It remains the same fifth field; without an authorized catalog, use the compact single-line note.
 
 ## Core behavior
 
 - Always research the **exact track/recording/version** on the web before classifying or scoring it.
 - Use public music sources as evidence. Do not answer from model memory alone.
-- Style vocabulary remains open, but final labels should be normalized to established, dominant, publicly checkable musical terms.
-- Do not create temporary compound labels; no hard whitelist applies.
-- Use broad genre families as orientation, not as a restrictive whitelist.
+- Identify the supported dominant musical style first. Run the **Primary Style Validation Gate** so form or soundtrack labels never stand alone, and do not fill Style slots with weak matches.
+- Map accurate terms to a user-authorized catalog when available in the session. This public repository contains no such catalog; without one, use established, publicly checkable terms and do not claim strict catalog matching.
+- Do not create temporary compound labels. Use broad genre families only as internal orientation; the output has no Genre field.
 - Score **Mainstream Appeal** and **Musicality** independently.
 - Check all five relevant dimensions internally for each score, then write only the score-moving evidence; do not turn the final note into a dimension-by-dimension report.
 - Keep the default note as a concise QC work note: direct, problem-oriented, and roughly 60–100 Chinese characters (normally at or below about 120). Preserve correctness first, then remove repetition, Style restatement, and nonessential background.
 - For 3/5 and 4/5, an inline highlight is optional and must add non-redundant value. Every 5/5 still needs concrete affirmative evidence, which may be integrated into its score explanation rather than added as a fixed `亮点：` clause.
+- Every sub-5 score needs a supported, specific limitation; Musicality 4/5 cannot use vague wording alone or invent a defect to justify its score.
 - Separate recording/release year from **listening era**. A modern release can sound retro; an older recording can still have a modern listening character.
 - If reliable web access is unavailable, say so instead of pretending research was performed.
 
 ## Scope
 
 Included:
-- Genre
 - Style
 - Listening era
 - Mainstream Appeal /5
@@ -188,7 +194,7 @@ Not included by default:
 
 ## Status
 
-Current web-chat ruleset: **v0.7**
+Current web-chat ruleset: **v0.8**
 
 The project remains calibration-oriented. Examples and evals are intended to improve consistency across models, not to claim that every genre/style label or score is objectively unique or immutable.
 
